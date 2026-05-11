@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>从书本走进咨询室，中间需要什么？ | 心马力</title>
+    <link rel="stylesheet" href="styles.css?v=mega-nav-8" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-row">
+        <a class="brand" href="index.html" aria-label="心马力 Chevali 首页">
+          <span class="brand-wordmark">
+            <span class="brand-mark-cn">心马力</span>
+            <span class="brand-mark-en">Chevali</span>
+          </span>
+        </a>
+        <div class="header-tools">
+          <button type="button" class="mobile-nav-toggle" aria-label="打开导航菜单" aria-expanded="false" aria-controls="primary-navigation" id="mobile-nav-toggle">
+            <span class="mobile-nav-toggle__bars" aria-hidden="true">
+              <span class="mobile-nav-toggle__bar"></span>
+              <span class="mobile-nav-toggle__bar"></span>
+              <span class="mobile-nav-toggle__bar"></span>
+            </span>
+          </button>
+          <a class="nav-cta" href="booking.html">预约咨询</a>
+        </div>
+      </div>
+      <div class="mobile-nav-backdrop" aria-hidden="true"></div>
+      <nav class="site-nav" id="primary-navigation" aria-label="主导航">
+        <div class="site-nav__dropdown">
+          <button
+            type="button"
+            class="site-nav__dropdown-trigger"
+            aria-expanded="false"
+            aria-haspopup="true"
+            aria-controls="nav-services-panel"
+            id="nav-services-btn"
+          >
+            我们的服务
+          </button>
+          <div class="site-nav__dropdown-panel site-nav__mega-panel" id="nav-services-panel">
+            <div class="site-nav__mega" data-active="visitor">
+              <div class="site-nav__mega-l2" role="tablist" aria-label="服务对象类型">
+                <button
+                  type="button"
+                  class="site-nav__mega-l2-btn is-active"
+                  role="tab"
+                  aria-selected="true"
+                  aria-controls="mega-pane-visitor"
+                  id="mega-tab-visitor"
+                  data-mega-tab="visitor"
+                >
+                  我是来访者
+                </button>
+                <button
+                  type="button"
+                  class="site-nav__mega-l2-btn"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="mega-pane-counselor"
+                  id="mega-tab-counselor"
+                  data-mega-tab="counselor"
+                >
+                  我是咨询师
+                </button>
+              </div>
+              <div class="site-nav__mega-l3-wrap">
+                <div
+                  class="site-nav__mega-l3-pane is-active"
+                  id="mega-pane-visitor"
+                  role="tabpanel"
+                  aria-labelledby="mega-tab-visitor"
+                  data-mega-pane="visitor"
+                >
+                  <a role="menuitem" href="index.html#individual">个体咨询</a>
+                  <a role="menuitem" href="index.html#couples">伴侣咨询</a>
+                  <a role="menuitem" href="index.html#teen">青少年咨询</a>
+                  <a role="menuitem" href="index.html#group">团体成长</a>
+                </div>
+                <div
+                  class="site-nav__mega-l3-pane"
+                  id="mega-pane-counselor"
+                  role="tabpanel"
+                  aria-labelledby="mega-tab-counselor"
+                  data-mega-pane="counselor"
+                  hidden
+                >
+                  <a role="menuitem" href="counselors.html">咨询师支持</a>
+                </div>
+              </div>
+              <div class="site-nav__mega-media" aria-hidden="true">
+                <div class="site-nav__mega-visual is-active" data-mega-visual="visitor">
+                  <img src="assets/gateway-individual.png" alt="" width="280" height="176" decoding="async" loading="lazy" />
+                </div>
+                <div class="site-nav__mega-visual" data-mega-visual="counselor">
+                  <img src="assets/gateway-counselor.png" alt="" width="280" height="176" decoding="async" loading="lazy" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="index.html#counselors-team">咨询师团队</a>
+        <a href="pricing.html">咨询费用</a>
+        <a href="articles.html">专栏</a>
+        <a href="index.html#about">关于我们</a>
+        <a href="booking.html">预约咨询</a>
+      </nav>
+    </header>
+
+    <main class="article-reading">
+      <article class="article-reading__inner">
+        <a class="article-reading__back" href="articles.html">← 返回专栏</a>
+        <p class="article-reading__tag">实用锦囊</p>
+        <h1>从书本走进咨询室，中间需要什么？</h1>
+        <p class="article-reading__meta">心马力 Chevali · 写给咨询师同行</p>
+        <div class="article-reading__body">
+          <p>
+            读完教科书与流派专著，并不等于在真实的人际互动里已经「会用」。中间那段路，往往是反复的角色扮演、督导反馈与同伴练习——把抽象的概念磨成可被辨认的微动作：语气、停顿、眼神、如何追问一句感受。
+          </p>
+          <p>
+            心马力重视这一段「落地」的过程：在合规与伦理的边界内，让练习足够密集，让反馈足够具体。你若正在寻找练习场与同伴，或许可以在咨询师支持栏目里找到与你相近的路径。
+          </p>
+        </div>
+        <p class="article-reading__note">
+          本文为业内人士随笔，具体训练安排以实际项目说明为准。
+        </p>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <strong>心马力 Chevali</strong>
+      <span>把真心交给真心。</span>
+      <a href="booking.html">预约咨询</a>
+    </footer>
+    <script src="mobile-nav.js" defer></script>
+    <script src="nav-dropdown.js" defer></script>
+    <div class="global-cloud-pony" aria-hidden="true">
+      <img
+        class="global-cloud-pony__img"
+        src="assets/cloud-pony-float.png?v=alpha-2"
+        alt=""
+        width="1024"
+        height="1024"
+        decoding="async"
+      />
+    </div>
+  </body>
+</html>

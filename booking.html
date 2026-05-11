@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>预约咨询 | 心马力 Chevali</title>
+    <link rel="stylesheet" href="styles.css?v=mega-nav-8" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-row">
+        <a class="brand" href="index.html" aria-label="心马力 Chevali 首页">
+          <span class="brand-wordmark">
+            <span class="brand-mark-cn">心马力</span>
+            <span class="brand-mark-en">Chevali</span>
+          </span>
+        </a>
+        <div class="header-tools">
+          <button type="button" class="mobile-nav-toggle" aria-label="打开导航菜单" aria-expanded="false" aria-controls="primary-navigation" id="mobile-nav-toggle">
+            <span class="mobile-nav-toggle__bars" aria-hidden="true">
+              <span class="mobile-nav-toggle__bar"></span>
+              <span class="mobile-nav-toggle__bar"></span>
+              <span class="mobile-nav-toggle__bar"></span>
+            </span>
+          </button>
+          <a class="nav-cta active" href="booking.html">预约咨询</a>
+        </div>
+      </div>
+      <div class="mobile-nav-backdrop" aria-hidden="true"></div>
+      <nav class="site-nav" id="primary-navigation" aria-label="主导航">
+        <div class="site-nav__dropdown">
+          <button
+            type="button"
+            class="site-nav__dropdown-trigger"
+            aria-expanded="false"
+            aria-haspopup="true"
+            aria-controls="nav-services-panel"
+            id="nav-services-btn"
+          >
+            我们的服务
+          </button>
+          <div class="site-nav__dropdown-panel site-nav__mega-panel" id="nav-services-panel">
+            <div class="site-nav__mega" data-active="visitor">
+              <div class="site-nav__mega-l2" role="tablist" aria-label="服务对象类型">
+                <button
+                  type="button"
+                  class="site-nav__mega-l2-btn is-active"
+                  role="tab"
+                  aria-selected="true"
+                  aria-controls="mega-pane-visitor"
+                  id="mega-tab-visitor"
+                  data-mega-tab="visitor"
+                >
+                  我是来访者
+                </button>
+                <button
+                  type="button"
+                  class="site-nav__mega-l2-btn"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="mega-pane-counselor"
+                  id="mega-tab-counselor"
+                  data-mega-tab="counselor"
+                >
+                  我是咨询师
+                </button>
+              </div>
+              <div class="site-nav__mega-l3-wrap">
+                <div
+                  class="site-nav__mega-l3-pane is-active"
+                  id="mega-pane-visitor"
+                  role="tabpanel"
+                  aria-labelledby="mega-tab-visitor"
+                  data-mega-pane="visitor"
+                >
+                  <a role="menuitem" href="index.html#individual">个体咨询</a>
+                  <a role="menuitem" href="index.html#couples">伴侣咨询</a>
+                  <a role="menuitem" href="index.html#teen">青少年咨询</a>
+                  <a role="menuitem" href="index.html#group">团体成长</a>
+                </div>
+                <div
+                  class="site-nav__mega-l3-pane"
+                  id="mega-pane-counselor"
+                  role="tabpanel"
+                  aria-labelledby="mega-tab-counselor"
+                  data-mega-pane="counselor"
+                  hidden
+                >
+                  <a role="menuitem" href="counselors.html">咨询师支持</a>
+                </div>
+              </div>
+              <div class="site-nav__mega-media" aria-hidden="true">
+                <div class="site-nav__mega-visual is-active" data-mega-visual="visitor">
+                  <img src="assets/gateway-individual.png" alt="" width="280" height="176" decoding="async" loading="lazy" />
+                </div>
+                <div class="site-nav__mega-visual" data-mega-visual="counselor">
+                  <img src="assets/gateway-counselor.png" alt="" width="280" height="176" decoding="async" loading="lazy" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="index.html#counselors-team">咨询师团队</a>
+        <a href="pricing.html">咨询费用</a>
+        <a href="articles.html">专栏</a>
+        <a href="index.html#about">关于我们</a>
+        <a class="active" href="booking.html">预约咨询</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="booking-layout">
+        <div class="booking-copy">
+          <p class="eyebrow">预约表单</p>
+          <h1 class="booking-headline">
+            <span class="booking-headline__line">从现在开始关爱自己</span>
+            <span class="booking-headline__line">给你的心注入马力</span>
+          </h1>
+          <p class="lead">请留下你的基本需求。我们会根据你填写的信息进行初步匹配，并与你确认合适的咨询方式。</p>
+          <div class="notice">
+            如果你正处于自伤、伤人、精神症状急性发作或其他危机状态，请立即联系当地急救、医院或危机干预热线。
+          </div>
+        </div>
+        <form
+          class="booking-form"
+          action="https://formsubmit.co/heramaimai@gmail.com"
+          method="POST"
+        >
+          <input type="hidden" name="_subject" value="心马力 Chevali · 官网预约咨询" />
+          <input type="hidden" name="_next" id="booking-form-next" value="" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="form-honeypot" aria-hidden="true" />
+
+          <label>你的称呼<input type="text" name="称呼" placeholder="例如：小林" required /></label>
+          <label>联系方式<input type="text" name="联系方式" placeholder="手机号 / 微信 / 邮箱" required /></label>
+          <label>你希望获得的支持
+            <select name="希望获得的支持" required>
+              <option value="个体咨询">个体咨询</option>
+              <option value="伴侣咨询">伴侣咨询</option>
+              <option value="青少年咨询">青少年咨询</option>
+              <option value="团体支持与成长小组">团体支持与成长小组</option>
+              <option value="咨询师支持">咨询师支持</option>
+              <option value="还不确定，希望先聊聊">还不确定，希望先聊聊</option>
+            </select>
+          </label>
+          <label>想谈的议题<textarea name="想谈的议题" placeholder="可以写下你的困扰、期待或任何想被认真听见的部分" required></textarea></label>
+          <label>方便联系的时间<input type="text" name="方便联系的时间" placeholder="例如：工作日晚上 / 周末下午" /></label>
+          <button class="button primary" type="submit">提交预约</button>
+        </form>
+        <script>
+          (function () {
+            var el = document.getElementById("booking-form-next");
+            if (el) {
+              el.value = new URL("booking-success.html", window.location.href).href;
+            }
+          })();
+        </script>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <strong>心马力 Chevali</strong>
+      <span>把真心交给真心</span>
+      <a href="index.html">返回首页</a>
+    </footer>
+
+    <script src="mobile-nav.js" defer></script>
+    <script src="nav-dropdown.js" defer></script>
+    <div class="global-cloud-pony" aria-hidden="true">
+      <img
+        class="global-cloud-pony__img"
+        src="assets/cloud-pony-float.png?v=alpha-2"
+        alt=""
+        width="1024"
+        height="1024"
+        decoding="async"
+      />
+    </div>
+  </body>
+</html>

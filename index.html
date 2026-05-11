@@ -1,0 +1,1336 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>心马力 Chevali | 心理咨询与陪伴</title>
+    <meta
+      name="description"
+      content="心马力 Chevali 提供个体咨询、伴侣咨询、青少年咨询与团体成长支持，在安全、稳定的关系里陪你重新理解自己与生活。"
+    />
+    <link rel="stylesheet" href="styles.css?v=mega-nav-8" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-row">
+        <a class="brand" href="index.html" aria-label="心马力 Chevali 首页">
+          <span class="brand-wordmark">
+            <span class="brand-mark-cn">心马力</span>
+            <span class="brand-mark-en">Chevali</span>
+          </span>
+        </a>
+        <div class="header-tools">
+          <button type="button" class="mobile-nav-toggle" aria-label="打开导航菜单" aria-expanded="false" aria-controls="primary-navigation" id="mobile-nav-toggle">
+            <span class="mobile-nav-toggle__bars" aria-hidden="true">
+              <span class="mobile-nav-toggle__bar"></span>
+              <span class="mobile-nav-toggle__bar"></span>
+              <span class="mobile-nav-toggle__bar"></span>
+            </span>
+          </button>
+          <a class="nav-cta" href="booking.html">预约咨询</a>
+        </div>
+      </div>
+      <div class="mobile-nav-backdrop" aria-hidden="true"></div>
+      <nav class="site-nav" id="primary-navigation" aria-label="主导航">
+        <div class="site-nav__dropdown">
+          <button
+            type="button"
+            class="site-nav__dropdown-trigger"
+            aria-expanded="false"
+            aria-haspopup="true"
+            aria-controls="nav-services-panel"
+            id="nav-services-btn"
+          >
+            我们的服务
+          </button>
+          <div class="site-nav__dropdown-panel site-nav__mega-panel" id="nav-services-panel">
+            <div class="site-nav__mega" data-active="visitor">
+              <div class="site-nav__mega-l2" role="tablist" aria-label="服务对象类型">
+                <button
+                  type="button"
+                  class="site-nav__mega-l2-btn is-active"
+                  role="tab"
+                  aria-selected="true"
+                  aria-controls="mega-pane-visitor"
+                  id="mega-tab-visitor"
+                  data-mega-tab="visitor"
+                >
+                  我是来访者
+                </button>
+                <button
+                  type="button"
+                  class="site-nav__mega-l2-btn"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="mega-pane-counselor"
+                  id="mega-tab-counselor"
+                  data-mega-tab="counselor"
+                >
+                  我是咨询师
+                </button>
+              </div>
+              <div class="site-nav__mega-l3-wrap">
+                <div
+                  class="site-nav__mega-l3-pane is-active"
+                  id="mega-pane-visitor"
+                  role="tabpanel"
+                  aria-labelledby="mega-tab-visitor"
+                  data-mega-pane="visitor"
+                >
+                  <a role="menuitem" href="#individual">个体咨询</a>
+                  <a role="menuitem" href="#couples">伴侣咨询</a>
+                  <a role="menuitem" href="#teen">青少年咨询</a>
+                  <a role="menuitem" href="#group">团体成长</a>
+                </div>
+                <div
+                  class="site-nav__mega-l3-pane"
+                  id="mega-pane-counselor"
+                  role="tabpanel"
+                  aria-labelledby="mega-tab-counselor"
+                  data-mega-pane="counselor"
+                  hidden
+                >
+                  <a role="menuitem" href="#counselor-support">咨询师支持</a>
+                </div>
+              </div>
+              <div class="site-nav__mega-media" aria-hidden="true">
+                <div class="site-nav__mega-visual is-active" data-mega-visual="visitor">
+                  <img src="assets/gateway-individual.png" alt="" width="280" height="176" decoding="async" loading="lazy" />
+                </div>
+                <div class="site-nav__mega-visual" data-mega-visual="counselor">
+                  <img src="assets/gateway-counselor.png" alt="" width="280" height="176" decoding="async" loading="lazy" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#counselors-team">咨询师团队</a>
+        <a href="pricing.html">咨询费用</a>
+        <a href="articles.html">专栏</a>
+        <a href="#about">关于我们</a>
+        <a href="booking.html">预约咨询</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero hero-home">
+        <div class="hero-copy">
+          <p class="hero-tagline">看见 · 连接 · 陪伴</p>
+          <h1>把真心交给真心</h1>
+          <p class="lead">
+            心马力 Chevali 提供个体咨询、伴侣咨询、青少年咨询与团体成长支持，陪你在安全、稳定的关系里，重新理解自己与生活。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="booking.html">预约初步沟通</a>
+            <a class="button secondary" href="#support">了解咨询服务</a>
+          </div>
+        </div>
+        <div class="hero-image hero-image-soft hero-image-poster">
+          <img
+            src="assets/hero-consult-room.png?v=4"
+            alt="插画：咨询室里，咨询师与来访者在柔和的灯光下安心交谈"
+            width="1024"
+            height="576"
+            decoding="async"
+          />
+        </div>
+        <a class="hero-scroll-hint" href="#metrics" aria-label="向下浏览：服务数据">
+          <span class="hero-scroll-chevrons" aria-hidden="true">
+            <span class="hero-scroll-chevron"></span>
+            <span class="hero-scroll-chevron"></span>
+          </span>
+        </a>
+      </section>
+
+      <section
+        class="section section-compact section-metrics"
+        id="metrics"
+        aria-label="服务数据概览"
+      >
+        <div class="metrics-board">
+          <div class="metrics-cell">
+            <p class="metrics-value metrics-value--count">
+              <span id="metrics-counter" data-target="1500">0</span>
+            </p>
+            <p class="metrics-label">累计服务人次</p>
+          </div>
+          <div class="metrics-cell">
+            <p class="metrics-value">50+</p>
+            <p class="metrics-label">专业咨询师与督导师</p>
+          </div>
+          <div class="metrics-cell">
+            <p class="metrics-value">24h</p>
+            <p class="metrics-label">平均完成初步匹配</p>
+          </div>
+          <div class="metrics-cell">
+            <p class="metrics-value">100%</p>
+            <p class="metrics-label">隐私与伦理流程覆盖</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-support-bh" id="support">
+        <div class="section-head centered section-head-support">
+          <h2>你值得更幸福</h2>
+          <p class="section-sub role-gateway-lead">
+            你正在寻找哪种类型的心理咨询或相关服务？
+          </p>
+        </div>
+
+        <div class="bh-gateway" role="group" aria-label="选择来访或咨询师入口">
+          <input
+            class="bh-state"
+            type="radio"
+            name="support-role"
+            id="support-client"
+            checked
+          />
+          <input class="bh-state" type="radio" name="support-role" id="support-counselor" />
+
+          <div class="bh-segment" role="tablist" aria-label="身份">
+            <label class="bh-segment-btn" for="support-client" role="tab">我是来访者</label>
+            <label class="bh-segment-btn" for="support-counselor" role="tab">我是咨询师</label>
+          </div>
+
+          <div
+            class="bh-panel bh-panel--client"
+            id="support-panel-client"
+            role="tabpanel"
+            aria-labelledby="support-client"
+          >
+            <div class="bh-tiles">
+              <a class="bh-tile bh-tile--individual" href="#individual">
+                <span class="bh-tile-body">
+                  <span class="bh-tile-title">个体咨询</span>
+                  <span class="bh-tile-desc">为我自己寻求咨询帮助</span>
+                </span>
+                <span class="bh-tile-visual">
+                  <img
+                    src="assets/gateway-individual.png"
+                    alt="插画：独处书写与自我照料"
+                    width="640"
+                    height="640"
+                    loading="eager"
+                    decoding="async"
+                  />
+                </span>
+                <span class="bh-tile-foot">
+                  <span class="bh-tile-cta-text">了解详情</span>
+                  <span class="bh-tile-arrow" aria-hidden="true"></span>
+                </span>
+              </a>
+              <a class="bh-tile bh-tile--couples" href="#couples">
+                <span class="bh-tile-body">
+                  <span class="bh-tile-title">伴侣 / 家庭咨询</span>
+                  <span class="bh-tile-desc">为我及我的另一半寻求咨询帮助</span>
+                </span>
+                <span class="bh-tile-visual">
+                  <img
+                    src="assets/gateway-couples.png"
+                    alt="插画：伴侣并肩与支持"
+                    width="640"
+                    height="640"
+                    loading="eager"
+                    decoding="async"
+                  />
+                </span>
+                <span class="bh-tile-foot">
+                  <span class="bh-tile-cta-text">了解详情</span>
+                  <span class="bh-tile-arrow" aria-hidden="true"></span>
+                </span>
+              </a>
+              <a class="bh-tile bh-tile--teen" href="#teen">
+                <span class="bh-tile-body">
+                  <span class="bh-tile-title">青少年咨询</span>
+                  <span class="bh-tile-desc">为我的孩子寻求咨询帮助</span>
+                </span>
+                <span class="bh-tile-visual">
+                  <img
+                    src="assets/gateway-teen.png"
+                    alt="插画：青少年在安全空间中倾诉"
+                    width="640"
+                    height="640"
+                    loading="eager"
+                    decoding="async"
+                  />
+                </span>
+                <span class="bh-tile-foot">
+                  <span class="bh-tile-cta-text">了解详情</span>
+                  <span class="bh-tile-arrow" aria-hidden="true"></span>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="bh-panel bh-panel--counselor"
+            id="support-panel-counselor"
+            role="tabpanel"
+            aria-labelledby="support-counselor"
+          >
+            <div class="bh-tiles bh-tiles--single">
+              <a class="bh-tile bh-tile--pro" href="counselors.html">
+                <span class="bh-tile-body">
+                  <span class="bh-tile-title">咨询师支持</span>
+                  <span class="bh-tile-desc">练习室、同辈小组、前 100 小时与 Life Safari 职业导航</span>
+                </span>
+                <span class="bh-tile-visual">
+                  <img
+                    src="assets/gateway-counselor.png"
+                    alt="插画：督导与同辈专业成长"
+                    width="640"
+                    height="640"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </span>
+                <span class="bh-tile-foot">
+                  <span class="bh-tile-cta-text">进入专业成长页</span>
+                  <span class="bh-tile-arrow" aria-hidden="true"></span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-product-fabric" id="individual" aria-labelledby="individual-title">
+        <div class="fabric-split fabric-split--visual-right">
+          <div class="fabric-split__copy">
+            <p class="fabric-split__eyebrow">来访者服务</p>
+            <h2 class="fabric-split__title" id="individual-title">个体咨询</h2>
+            <p class="fabric-split__lead">在稳定关系里，重新理解自己的故事</p>
+            <ul class="fabric-split__features">
+              <li class="fabric-split__feature">
+                <span class="fabric-split__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none">
+                    <circle cx="12" cy="12" r="11" fill="#dfece6" />
+                    <path
+                      d="M7 12.5l3 3 7-7"
+                      stroke="#3d5346"
+                      stroke-width="1.75"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="fabric-split__feature-body">
+                  <strong class="fabric-split__feature-title">从具体议题开始</strong>
+                  <span class="fabric-split__feature-desc"
+                    >关系消耗、情绪低落、难以告别的失落，或人生方向的犹疑，都可以作为起点。</span
+                  >
+                </span>
+              </li>
+              <li class="fabric-split__feature">
+                <span class="fabric-split__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none">
+                    <circle cx="12" cy="12" r="11" fill="#dfece6" />
+                    <path
+                      d="M7 12.5l3 3 7-7"
+                      stroke="#3d5346"
+                      stroke-width="1.75"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="fabric-split__feature-body">
+                  <strong class="fabric-split__feature-title">稳定的一对一关系</strong>
+                  <span class="fabric-split__feature-desc"
+                    >在安全、持续的关系里，陪你看见情绪与选择背后的脉络。</span
+                  >
+                </span>
+              </li>
+              <li class="fabric-split__feature">
+                <span class="fabric-split__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none">
+                    <circle cx="12" cy="12" r="11" fill="#dfece6" />
+                    <path
+                      d="M7 12.5l3 3 7-7"
+                      stroke="#3d5346"
+                      stroke-width="1.75"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="fabric-split__feature-body">
+                  <strong class="fabric-split__feature-title">与自己相处的方式</strong>
+                  <span class="fabric-split__feature-desc"
+                    >咨询不是替你做决定，而是一起理解正在发生的事，慢慢找回立足点。</span
+                  >
+                </span>
+              </li>
+            </ul>
+            <p class="fabric-split__text">
+              适合探讨亲密关系、情绪困扰、人生意义、哀伤失落与生涯转折等议题。
+            </p>
+            <a class="fabric-split__cta" href="booking.html">预约初步沟通</a>
+          </div>
+          <div class="fabric-split__visual">
+            <img
+              class="fabric-split__img"
+              src="assets/service-detail-individual.png?v=1"
+              alt="插画：个体咨询会谈中，咨询师与来访者安心对话"
+              width="1024"
+              height="1024"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-product-fabric section-product-fabric--alt" id="couples" aria-labelledby="couples-title">
+        <div class="fabric-split fabric-split--visual-left">
+          <div class="fabric-split__copy">
+            <p class="fabric-split__eyebrow">来访者服务</p>
+            <h2 class="fabric-split__title" id="couples-title">伴侣咨询</h2>
+            <p class="fabric-split__lead">在关系里，重新学习听见彼此</p>
+            <ul class="fabric-split__features">
+              <li class="fabric-split__feature">
+                <span class="fabric-split__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none">
+                    <circle cx="12" cy="12" r="11" fill="#f5e4df" />
+                    <path
+                      d="M7 12.5l3 3 7-7"
+                      stroke="#6d4f47"
+                      stroke-width="1.75"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="fabric-split__feature-body">
+                  <strong class="fabric-split__feature-title">有边界的第三空间</strong>
+                  <span class="fabric-split__feature-desc"
+                    >放慢本能反应，听懂争吵背后的需要与恐惧。</span
+                  >
+                </span>
+              </li>
+              <li class="fabric-split__feature">
+                <span class="fabric-split__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none">
+                    <circle cx="12" cy="12" r="11" fill="#f5e4df" />
+                    <path
+                      d="M7 12.5l3 3 7-7"
+                      stroke="#6d4f47"
+                      stroke-width="1.75"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="fabric-split__feature-body">
+                  <strong class="fabric-split__feature-title">看见彼此的位置</strong>
+                  <span class="fabric-split__feature-desc"
+                    >理解长期互动里形成的防御、期待与失望如何塑造当下的冲突。</span
+                  >
+                </span>
+              </li>
+              <li class="fabric-split__feature">
+                <span class="fabric-split__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none">
+                    <circle cx="12" cy="12" r="11" fill="#f5e4df" />
+                    <path
+                      d="M7 12.5l3 3 7-7"
+                      stroke="#6d4f47"
+                      stroke-width="1.75"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="fabric-split__feature-body">
+                  <strong class="fabric-split__feature-title">一起面对的议题</strong>
+                  <span class="fabric-split__feature-desc"
+                    >疏离与回避、信任修复、亲密与承诺，以及婚前婚后的调整与重大决定。</span
+                  >
+                </span>
+              </li>
+            </ul>
+            <p class="fabric-split__text">
+              伴侣与重要家庭关系议题，都可以在会谈中被听见与练习新的互动方式。
+            </p>
+            <a class="fabric-split__cta" href="booking.html">预约初步沟通</a>
+          </div>
+          <div class="fabric-split__visual">
+            <img
+              class="fabric-split__img"
+              src="assets/service-detail-couples.png?v=1"
+              alt="插画：伴侣与咨询师在安全的会谈空间中对话"
+              width="1024"
+              height="1024"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-product-fabric" id="teen" aria-labelledby="teen-title">
+        <div class="fabric-split fabric-split--visual-right">
+          <div class="fabric-split__copy">
+            <p class="fabric-split__eyebrow">来访者服务</p>
+            <h2 class="fabric-split__title" id="teen-title">青少年咨询</h2>
+            <p class="fabric-split__lead">陪孩子走过敏感、混乱也充满可能的成长阶段</p>
+            <ul class="fabric-split__features">
+              <li class="fabric-split__feature">
+                <span class="fabric-split__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none">
+                    <circle cx="12" cy="12" r="11" fill="#f4efd9" />
+                    <path
+                      d="M7 12.5l3 3 7-7"
+                      stroke="#6d6648"
+                      stroke-width="1.75"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="fabric-split__feature-body">
+                  <strong class="fabric-split__feature-title">尊重孩子的主体感</strong>
+                  <span class="fabric-split__feature-desc"
+                    >在安全的关系里，让孩子更愿意表达自己，也被认真听见。</span
+                  >
+                </span>
+              </li>
+              <li class="fabric-split__feature">
+                <span class="fabric-split__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none">
+                    <circle cx="12" cy="12" r="11" fill="#f4efd9" />
+                    <path
+                      d="M7 12.5l3 3 7-7"
+                      stroke="#6d6648"
+                      stroke-width="1.75"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="fabric-split__feature-body">
+                  <strong class="fabric-split__feature-title">与家庭系统协作</strong>
+                  <span class="fabric-split__feature-desc"
+                    >学业、情绪、亲子与同伴议题，往往交织在家庭与学校期待之中。</span
+                  >
+                </span>
+              </li>
+              <li class="fabric-split__feature">
+                <span class="fabric-split__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none">
+                    <circle cx="12" cy="12" r="11" fill="#f4efd9" />
+                    <path
+                      d="M7 12.5l3 3 7-7"
+                      stroke="#6d6648"
+                      stroke-width="1.75"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="fabric-split__feature-body">
+                  <strong class="fabric-split__feature-title">支持家长的理解</strong>
+                  <span class="fabric-split__feature-desc"
+                    >帮助父母看见孩子正在经历的风暴，而不只是「应该如何」。</span
+                  >
+                </span>
+              </li>
+            </ul>
+            <p class="fabric-split__text">
+              涵盖学业压力、情绪波动、亲子冲突、同伴关系与自我认同等成长议题。
+            </p>
+            <a class="fabric-split__cta" href="booking.html">预约初步沟通</a>
+          </div>
+          <div class="fabric-split__visual">
+            <img
+              class="fabric-split__img"
+              src="assets/service-detail-teen.png?v=1"
+              alt="插画：青少年在温暖的咨询环境中被倾听"
+              width="1024"
+              height="1024"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-product-fabric section-product-fabric--alt" id="group" aria-labelledby="group-title">
+        <div class="fabric-split fabric-split--visual-left">
+          <div class="fabric-split__copy">
+            <p class="fabric-split__eyebrow">来访者服务</p>
+            <h2 class="fabric-split__title" id="group-title">团体支持与成长小组</h2>
+            <p class="fabric-split__lead">在一个微型社会里，练习表达、连接与整合</p>
+            <ul class="fabric-split__features">
+              <li class="fabric-split__feature">
+                <span class="fabric-split__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none">
+                    <circle cx="12" cy="12" r="11" fill="#e3eaf3" />
+                    <path
+                      d="M7 12.5l3 3 7-7"
+                      stroke="#4a5d70"
+                      stroke-width="1.75"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="fabric-split__feature-body">
+                  <strong class="fabric-split__feature-title">被听见的经验</strong>
+                  <span class="fabric-split__feature-desc"
+                    >孤独有时源于说不出口的感受——在团体里练习讲述与被回应。</span
+                  >
+                </span>
+              </li>
+              <li class="fabric-split__feature">
+                <span class="fabric-split__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none">
+                    <circle cx="12" cy="12" r="11" fill="#e3eaf3" />
+                    <path
+                      d="M7 12.5l3 3 7-7"
+                      stroke="#4a5d70"
+                      stroke-width="1.75"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="fabric-split__feature-body">
+                  <strong class="fabric-split__feature-title">多元形式的团体</strong>
+                  <span class="fabric-split__feature-desc"
+                    >叙事、心理剧、正念与表达性活动，营造温暖而有边界的共同空间。</span
+                  >
+                </span>
+              </li>
+              <li class="fabric-split__feature">
+                <span class="fabric-split__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none">
+                    <circle cx="12" cy="12" r="11" fill="#e3eaf3" />
+                    <path
+                      d="M7 12.5l3 3 7-7"
+                      stroke="#4a5d70"
+                      stroke-width="1.75"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="fabric-split__feature-body">
+                  <strong class="fabric-split__feature-title">在他人的故事里相遇</strong>
+                  <span class="fabric-split__feature-desc"
+                    >在他人的叙述中看见自己的回声，重新练习连接与整合。</span
+                  >
+                </span>
+              </li>
+            </ul>
+            <p class="fabric-split__text">
+              适合希望在与他人的相遇中深化自我探索与成长的来访者。
+            </p>
+            <p class="fabric-split__fineprint">
+              <strong>边界提示：</strong>团体支持自我探索与成长，不替代个体咨询、精神科诊疗或危机干预。
+            </p>
+            <a class="fabric-split__cta" href="booking.html">预约初步沟通</a>
+          </div>
+          <div class="fabric-split__visual">
+            <img
+              class="fabric-split__img"
+              src="assets/service-detail-group.png?v=1"
+              alt="插画：团体成员围坐一圈，彼此支持与倾听"
+              width="1024"
+              height="1024"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-product-fabric" id="counselor-support" aria-labelledby="counselor-support-title">
+        <div class="fabric-split fabric-split--visual-right">
+          <div class="fabric-split__copy">
+            <p class="fabric-split__eyebrow">专业同行</p>
+            <h2 class="fabric-split__title" id="counselor-support-title">咨询师支持</h2>
+            <p class="fabric-split__lead">给正在成长中的专业同行，一处可以练习和落地的空间</p>
+            <ul class="fabric-split__features">
+              <li class="fabric-split__feature">
+                <span class="fabric-split__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none">
+                    <circle cx="12" cy="12" r="11" fill="#e5eae6" />
+                    <path
+                      d="M7 12.5l3 3 7-7"
+                      stroke="#4a554d"
+                      stroke-width="1.75"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="fabric-split__feature-body">
+                  <strong class="fabric-split__feature-title">可反复练习的场域</strong>
+                  <span class="fabric-split__feature-desc"
+                    >咨询练习室与刻意练习小组，把概念稳稳落到真实的会谈动作里。</span
+                  >
+                </span>
+              </li>
+              <li class="fabric-split__feature">
+                <span class="fabric-split__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none">
+                    <circle cx="12" cy="12" r="11" fill="#e5eae6" />
+                    <path
+                      d="M7 12.5l3 3 7-7"
+                      stroke="#4a554d"
+                      stroke-width="1.75"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="fabric-split__feature-body">
+                  <strong class="fabric-split__feature-title">走过前 100 小时</strong>
+                  <span class="fabric-split__feature-desc"
+                    >陪伴新手咨询师从训练过渡到可持续的临床实践。</span
+                  >
+                </span>
+              </li>
+              <li class="fabric-split__feature">
+                <span class="fabric-split__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none">
+                    <circle cx="12" cy="12" r="11" fill="#e5eae6" />
+                    <path
+                      d="M7 12.5l3 3 7-7"
+                      stroke="#4a554d"
+                      stroke-width="1.75"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="fabric-split__feature-body">
+                  <strong class="fabric-split__feature-title">Life Safari 职业导航</strong>
+                  <span class="fabric-split__feature-desc"
+                    >梳理督导、流派学习与生涯路径，看见适合自己的下一步。</span
+                  >
+                </span>
+              </li>
+            </ul>
+            <p class="fabric-split__text">
+              面向新手与成长中的咨询师、海外归国同行及希望精进实务的专业伙伴。
+            </p>
+            <div class="fabric-split__actions">
+              <a class="fabric-split__cta" href="counselors.html">查看咨询师支持详情</a>
+              <a class="fabric-split__cta fabric-split__cta--ghost" href="booking.html">预约沟通</a>
+            </div>
+          </div>
+          <div class="fabric-split__visual">
+            <img
+              class="fabric-split__img"
+              src="assets/counselor-support-01.png?v=1"
+              alt="插画：咨询师同伴围坐交流，学习与反思中成长"
+              width="1024"
+              height="1024"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-paper" id="process">
+        <div class="section-head">
+          <h2>咨询如何开始</h2>
+          <p class="section-sub">清晰的几步，是为了让你在开口之前，少一些不确定。</p>
+        </div>
+        <ol class="steps-list">
+          <li>
+            <span class="step-num">01</span>
+            <div>
+              <h3>提交预约</h3>
+              <p>留下你想要讨论的议题与基本情况</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">02</span>
+            <div>
+              <h3>初步沟通</h3>
+              <p>我们会协助你判断适合的服务类型</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">03</span>
+            <div>
+              <h3>匹配咨询师</h3>
+              <p>根据议题、目标、咨询取向与关系适配度进行推荐</p>
+            </div>
+          </li>
+          <li>
+            <span class="step-num">04</span>
+            <div>
+              <h3>开始工作</h3>
+              <p>进入个体、伴侣、青少年咨询或团体支持</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section section-why" id="why">
+        <div class="section-head centered">
+          <h2>为什么是心马力</h2>
+        </div>
+        <div class="why-accordion">
+          <details class="why-panel" name="chevali-why" open>
+            <summary class="why-panel-summary">
+              <span class="why-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                </svg>
+              </span>
+              <span class="why-title">我们重视关系</span>
+              <span class="why-chevron" aria-hidden="true"></span>
+            </summary>
+            <div class="why-panel-body">
+              <p>
+                我们重视关系。稳定关系。咨询首先是一段安全、稳定、有边界的关系。
+              </p>
+              <p>
+                在心马力，我们相信，真正的改变往往不是发生在某一次被点醒的谈话里，而是发生在一段持续、可信任的关系中。
+              </p>
+              <p>
+                你会在这里被认真听见，也会被稳定回应。我们不会急着替你定义问题，也不会把你的感受简化成某个标签。我们更在意的是，在一段清晰、尊重、可持续的对话里，陪你慢慢看见自己，也让那些原本只能独自承受的经历，开始被理解、被整理、被安放。
+              </p>
+            </div>
+          </details>
+
+          <details class="why-panel" name="chevali-why">
+            <summary class="why-panel-summary">
+              <span class="why-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                  <path d="M5 19V5M12 19v-7M19 19V9" />
+                </svg>
+              </span>
+              <span class="why-title">我们以科学与实证为根基</span>
+              <span class="why-chevron" aria-hidden="true"></span>
+            </summary>
+            <div class="why-panel-body">
+              <p><strong>专业训练。</strong>团队成员长期接受系统训练、督导与个人体验。</p>
+              <p>
+                在心马力，我们尊重临床伦理，也相信循证精神。心理咨询不是一句漂亮的安慰，也不是制造快速改变的承诺。
+              </p>
+              <p>
+                每个人都有自己的生命脉络，也有各自形成困境的方式。我们会在清晰的专业边界中，陪你理解自己的状态从何而来、如何延续，又可能在哪里开始松动。
+              </p>
+              <p>
+                咨询不是把你带向某个标准答案，而是用可靠的方法与稳定的关系，帮助你重新辨认自己的位置，看清方向，并逐渐拥有选择的能力。
+              </p>
+            </div>
+          </details>
+
+          <details class="why-panel" name="chevali-why">
+            <summary class="why-panel-summary">
+              <span class="why-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M3 12h18M12 3c3 4 3 14 0 18M12 3c-3 4-3 14 0 18" stroke-linecap="round" />
+                </svg>
+              </span>
+              <span class="why-title">我们理解多元文化与处境</span>
+              <span class="why-chevron" aria-hidden="true"></span>
+            </summary>
+            <div class="why-panel-body">
+              <p><strong>跨文化视野。</strong>理解不同的成长背景、文化身份与生活处境。</p>
+              <p>
+                很多困扰，并不只来自一个人的内心，也来自他所处的关系、家庭、社会角色与文化期待。
+              </p>
+              <p>
+                在心马力，我们在差异中倾听。我们不只关心你出现了什么「症状」，也关心你是谁、从哪里来，正在承受怎样的压力、规训与羁绊。
+              </p>
+              <p>
+                我们希望和你一起看见，那些曾经让你难以开口的感受，背后也许有它的来处；那些被压抑、被误解、被迫适应的部分，也可以在一段安全的关系里，慢慢找到更诚实、更可承受的表达方式。
+              </p>
+            </div>
+          </details>
+
+          <details class="why-panel" name="chevali-why">
+            <summary class="why-panel-summary">
+              <span class="why-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+                  <circle cx="12" cy="12" r="4" />
+                  <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+                </svg>
+              </span>
+              <span class="why-title">我们陪你回到自己的生活里</span>
+              <span class="why-chevron" aria-hidden="true"></span>
+            </summary>
+            <div class="why-panel-body">
+              <p>
+                <strong>真诚在场。</strong>咨询不是让你永远留在谈话里，也不是把生活交给另一个人解释。它更像是一段暂时的同行：在你被情绪、关系和现实推着往前走的时候，有人陪你停下来，看一看发生了什么。
+              </p>
+              <p>
+                在心马力，我们会放慢节奏，和你一起区分哪些是可以被理解的，哪些仍需要时间；哪些是他人的期待，哪些才是你真正的需要。
+              </p>
+              <p>
+                我们希望咨询最终带来的，不只是片刻的缓解，而是让你在真实的生活里，重新摸到自己的边界、欲望和力量，然后把目光一点点放回到自己身上。
+              </p>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section class="section section-meet-counselors" id="counselors-team">
+        <div class="meet-counselors">
+          <h2 class="meet-counselors__title">咨询师团队</h2>
+          <p class="meet-counselors__lead">
+            心马力的咨询师受过系统训练并长期接受督导。以下为部分成员；匹配将在初步沟通后结合你的议题与适配度商定。
+          </p>
+          <div class="meet-counselors__grid" aria-label="咨询师预览">
+            <article class="meet-card">
+              <button
+                type="button"
+                class="meet-card__photo meet-card__photo--hit"
+                data-meet-open="mai"
+                aria-label="查看麦子咨询师简介"
+              >
+                <img
+                  src="assets/team-maizi.png?v=1"
+                  alt="麦子"
+                  width="900"
+                  height="1200"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </button>
+              <div class="meet-card__body">
+                <h3 class="meet-card__name">麦子</h3>
+                <p class="meet-card__role">Licensed Clinical Social Worker · LMSW</p>
+                <button type="button" class="meet-card__more" data-meet-open="mai">MORE</button>
+              </div>
+            </article>
+            <article class="meet-card">
+              <div class="meet-card__photo">
+                <img
+                  src="assets/team-jolyne.png?v=1"
+                  alt="Jolyne"
+                  width="900"
+                  height="1200"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="meet-card__body">
+                <h3 class="meet-card__name">Jolyne</h3>
+                <p class="meet-card__role">Psychotherapist · Individual Therapy</p>
+                <button type="button" class="meet-card__more" data-meet-open="jolyne">MORE</button>
+              </div>
+            </article>
+            <article class="meet-card">
+              <div class="meet-card__photo">
+                <img
+                  src="assets/team-gino.png?v=1"
+                  alt="Gino"
+                  width="900"
+                  height="1200"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="meet-card__body">
+                <h3 class="meet-card__name">Gino</h3>
+                <p class="meet-card__role">Psychotherapist · Individual Therapy</p>
+                <button type="button" class="meet-card__more" data-meet-open="gino">MORE</button>
+              </div>
+            </article>
+          </div>
+          <p class="meet-counselors__footer">
+            <a class="meet-counselors__link" href="counselors-team.html">查看完整团队介绍</a>
+            <a class="button primary meet-counselors__book" href="booking.html">预约初步沟通</a>
+          </p>
+        </div>
+      </section>
+
+      <section class="section section-about-fabric" id="about">
+        <div class="about-fabric-inner">
+          <header class="about-fabric-head">
+            <p class="about-fabric-kicker" lang="en">About us</p>
+            <h2 class="about-fabric-title">关于我们</h2>
+            <p class="about-fabric-sub">我们的来历与心意</p>
+          </header>
+
+          <div
+            id="about-story-panel"
+            class="about-fabric-panel about-fabric-panel--collapsed"
+          >
+            <div class="about-fabric-clamp-root">
+              <div class="brand-story">
+                <article class="brand-story-chapter">
+                  <h3 class="brand-story-title">
+                    <span class="chapter-num" aria-hidden="true">01</span>
+                    <span class="chapter-heading">寻一处容身之地，守护一簇火种</span>
+                  </h3>
+                  <div class="prose prose-wide about-fabric-prose">
+                    <p>
+                      心马力 Chevali 的诞生，最初并非为了成就一份事业，而是源于一群「异乡人」回国后的守望相助。
+                    </p>
+                    <p>
+                      我们的核心团队始于纽约大学社会工作学院。在那座承载着理想主义的红砖建筑里，在那个将科学、严谨与社会正义刻进骨髓的受训体系中，我们曾并肩坐在讨论课的圆桌前，反复打磨咨询技术与助人情怀。我们直面真实的创伤，在一次次督导与小组讨论中持续精进自我。从经典精神分析的深邃到人本主义的接纳，从 CBT 的结构化介入到艺术治疗的感性表达，我们接受了多流派、跨文化的严苛训练。在海外累积超过 1000 小时的临床实践中，我们敬畏着每一个灵魂的破碎与重塑，也深刻理解了心理学背后的社会意义。那时我们以为，带着严谨的科学受训和满腔热忱回国，便能为这片土地做点什么。
+                    </p>
+                    <p>
+                      然而，现实是，我们陷入了一场集体失语。我们发现，国内的心理学市场环境正经历着巨大的震荡。注册系统的要求不断变化，行业门槛模糊不清，而各种培训课程却动辄「天价」，且质量良莠不齐。作为专业受训的咨询师，我们秉持着更严格、更科学的专业积累，却惊讶地发现，在这里，我们很难找到一个纯粹、专业且能让我们安心执业的「容身之地」。国内深厚的「圈子文化」将新手咨询师与海外归国咨询师拒之门外，很多优秀的伙伴因此选择与这个行业告别。我们感到心痛。
+                    </p>
+                    <p>
+                      在一个本应「去权威化」的行业里，处处可见对权威的盲目崇拜。反观许多成功「商业化」的咨询师，她们似乎并不存在像我们这样的困惑与焦虑。她们甚至可以在毫无经验的前提下，经过一些简单的培训就上手实践。在行业内有一句玩笑，说越专业的咨询师越难养活自己。
+                    </p>
+                    <p>
+                      我们意识到，那一纸毕业证书、咨询时长证明或许能表明资历，却无法囊括我们经受过的专业训练，无法替我们讲述我们的真切故事与情怀，更无法消解单枪匹马进入行业的孤独感。
+                    </p>
+                    <p>
+                      那种感觉，就像是习惯了在大草原奔跑的野马，突然被关进了狭窄且规则混乱的栅栏。任凭它有多大的本事、多热诚的期盼，它也无法去到心中的那片草原。
+                    </p>
+                    <p>
+                      但当看向国内日益增长的心理健康需求和复杂的社会情绪时，我们比任何时候都更清楚：这片土地需要更科学、更具包容、更多元化的视角与声音，这片土地需要新鲜血液。
+                    </p>
+                  </div>
+                </article>
+
+                <article class="brand-story-chapter">
+                  <h3 class="brand-story-title">
+                    <span class="chapter-num" aria-hidden="true">02</span>
+                    <span class="chapter-heading">关于心马力 Chevali：让内在能力自然生长</span>
+                  </h3>
+                  <div class="prose prose-wide about-fabric-prose">
+                    <p>
+                      心马力 Chevali 的灵感源自人本主义心理学之父卡尔·罗杰斯（Carl R. Rogers）的核心观点：每一个人都有成长为更好自我的内在潜力，只需要一个足够真诚、尊重与共情的环境。我们相信，每一个人的生命里都藏着一匹野马，它代表着本我最原始、最蓬勃的生命力。我们应该创造一个环境，让这种内在能力得以释放。让人回归人，把真心交给真心。
+                    </p>
+                    <p>
+                      这是心马力诞生的底色。在快节奏时代，那些细微的焦虑、片刻的低落、隐秘的挣扎，往往被当作需要被迅速解决掉的「麻烦」。但我们深知这些碎片才是真实生活的一部分。
+                    </p>
+                    <p>
+                      你要问我 2026 年什么最贵，我还是想给你那个老掉牙的回答：真心。因为诚实地面对自己太难了。承认自己的虚弱，卸下「聪明」的面具，放下想要「拯救」来访者的自恋，是这一行最难的修行。给心安上马力，不是为了外在的加速，而是为了让内在的能量自然生发，让人回归人，把真心交给真心。
+                    </p>
+                  </div>
+                </article>
+
+                <article class="brand-story-chapter">
+                  <h3 class="brand-story-title">
+                    <span class="chapter-num" aria-hidden="true">03</span>
+                    <span class="chapter-heading">志同道合：从「我」到「我们」</span>
+                  </h3>
+                  <div class="prose prose-wide about-fabric-prose">
+                    <p>
+                      如果这片土壤暂时没有现成的港湾，那我们就自己造一个。
+                    </p>
+                    <p>
+                      因为不愿妥协于浮躁的市场，我们找到了来自北大、清华、北师大、纽约大学等志同道合的伙伴。清北的严谨与西方的跨文化视野在这里交汇，让我们有了守护火种的底气。
+                    </p>
+                    <p>
+                      我们深知，想要将心理学作为终身志业的人，往往是孤独的。尤其在当下行业生态与现实压力的双重夹击中，新手咨询师与海外归国咨询师若只是孤军奋战，那份对专业的赤诚极易在无尽的消磨中悄然枯萎。我们不愿看到理想的火苗因为没有适合的土壤渐渐熄灭。
+                    </p>
+                    <p>
+                      因此，我们创建心马力，不仅是为了服务来访者，更是为了给那些同样追求专业、追求真诚的咨询师伙伴，提供一个抱团取暖的空间。
+                    </p>
+                    <p>
+                      <strong>为能力正名。</strong>我们相信真正的专业不在于花哨的头衔，而在于扎实的专业知识支撑、灵活的知识迁移能力，以及在几千次实战中积累的成熟判断力，打磨出的稳定感与共情力。
+                    </p>
+                    <p>
+                      <strong>拒绝盲目内卷。</strong>在天价培训之外，我们提供一种基于实证、回归临床本质的训练方式。我们依托美国学院派常用的 Microcounseling（微咨询）教学法，在咨询师角色扮演（Role Play）之余，由专业督导进行指导与教学，将复杂的临床技术转化为可拆解、可练习的肌肉记忆。
+                    </p>
+                    <p>
+                      <strong>建立专业共同体。</strong>让那些和我们一样，对伦理有敬畏、对生命有慈悲的咨询师，不再是孤军奋战的个体，而是在一个互助、关怀、温暖的精神飞地找到一湾避风港。
+                    </p>
+                    <p>
+                      正因为我们曾经历过找不到出口的困顿时刻，所以我们更懂得如何守护这些赤诚的真心。在这里，每一位咨询师都不是流水线上的产品，而是我们共同守护的、珍贵的火种。
+                    </p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-fabric-actions">
+            <button
+              type="button"
+              class="about-fabric-toggle"
+              data-about-toggle
+              aria-expanded="false"
+              aria-controls="about-story-panel"
+            >
+              <span class="about-fabric-toggle-label">+ MORE</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-paper" id="faq">
+        <div class="section-head">
+          <h2>常见问题</h2>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>我怎么知道自己适合哪种咨询？</summary>
+            <p>
+              可以从你最困扰的情境描述起：若主要是个人情绪、意义感或自我理解，个体咨询通常更合适；若困扰集中在两个人之间的互动，可考虑伴侣咨询；若主体是未成年人及其家庭系统，我们会结合青少年咨询与家庭视角讨论。初步沟通时，我们也会和你一起澄清。
+            </p>
+          </details>
+          <details class="faq-item">
+            <summary>咨询会直接告诉我该怎么做吗？</summary>
+            <p>
+              咨询师更重要的工作是陪你理解自己的感受、需要与处境，而不是给出单一标准答案。在某些时刻会有具体的思考框架或练习，但那通常建立在你愿意尝试与反馈的基础上。
+            </p>
+          </details>
+          <details class="faq-item">
+            <summary>伴侣咨询需要两个人都愿意来吗？</summary>
+            <p>
+              理想情况下，双方都有参与的意愿，工作才会更可持续。若暂时只有一方愿意开始，也可以先通过个体咨询梳理关系中的困难，再讨论是否邀请另一方共同参与。
+            </p>
+          </details>
+          <details class="faq-item">
+            <summary>青少年咨询是否需要父母参与？</summary>
+            <p>
+              视年龄、议题与安全考量而定。我们会在伦理框架内平衡青少年的隐私与家庭支持的需要，必要时以家长访谈或联合会谈的形式促进理解与合作。
+            </p>
+          </details>
+          <details class="faq-item">
+            <summary>团体小组和心理咨询一样吗？</summary>
+            <p>
+              团体提供人际学习与经验整合的空间，但与一对一咨询的设置、深度与边界不同。团体不替代个体咨询，也不会承担精神科诊断或危机处置职能。
+            </p>
+          </details>
+          <details class="faq-item">
+            <summary>如果我和咨询师不适配怎么办？</summary>
+            <p>
+              适配度很重要。若你在几次会谈后仍感到难以信任或无法展开工作，可以直接提出，我们会协助你讨论调整方向或重新匹配，无需为此感到歉疚。
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <section class="section cta-final" id="booking-cta">
+        <div class="cta-final-inner">
+          <h2>从一个真实的问题开始</h2>
+          <p class="lead cta-lead">
+            你不需要把所有事情想清楚后才来。那些说不清的感受，本身就值得被认真对待。
+          </p>
+          <a class="button primary button-large" href="booking.html">预约初步沟通</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <strong>心马力 Chevali</strong>
+      <span>把真心交给真心</span>
+      <a href="booking.html">预约咨询</a>
+    </footer>
+
+    <div
+      id="booking-popup"
+      class="booking-popup"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="booking-popup-title"
+      aria-describedby="booking-popup-desc"
+      aria-hidden="true"
+      hidden
+    >
+      <div class="booking-popup-backdrop"></div>
+      <div class="booking-popup-shell">
+        <div class="booking-popup-cloud booking-popup-cloud--a" aria-hidden="true">
+          <span class="booking-popup-puff"></span>
+          <span class="booking-popup-puff"></span>
+          <span class="booking-popup-puff"></span>
+        </div>
+        <div class="booking-popup-cloud booking-popup-cloud--b" aria-hidden="true">
+          <span class="booking-popup-puff"></span>
+          <span class="booking-popup-puff"></span>
+          <span class="booking-popup-puff"></span>
+        </div>
+        <div class="booking-popup-cloud booking-popup-cloud--c" aria-hidden="true">
+          <span class="booking-popup-puff"></span>
+          <span class="booking-popup-puff"></span>
+          <span class="booking-popup-puff"></span>
+        </div>
+        <div class="booking-popup-panel">
+          <button type="button" class="booking-popup-close" aria-label="关闭预约提示">
+            ×
+          </button>
+          <p class="booking-popup-brand">心马力 CHEVALI</p>
+          <h2 id="booking-popup-title" class="booking-popup-title">
+            准备好，给自己一个停顿了吗？
+          </h2>
+          <p id="booking-popup-desc" class="booking-popup-lead">
+            预约一段初步沟通。你不必先把所有事情想清楚——把那些说不清的感受带来就好。
+          </p>
+          <div class="booking-popup-actions">
+            <a class="button primary" href="booking.html">前往预约</a>
+          </div>
+          <p class="booking-popup-note">关闭后，本次浏览期间将不再显示此提示。</p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      id="meet-counselor-overlay"
+      class="meet-overlay"
+      hidden
+      aria-hidden="true"
+    >
+      <div class="meet-overlay__backdrop" data-meet-close></div>
+      <div
+        class="meet-overlay__dialog"
+        role="dialog"
+        aria-modal="true"
+        aria-label="咨询师简介"
+      >
+        <button type="button" class="meet-overlay__close" data-meet-close aria-label="关闭">
+          ×
+        </button>
+
+        <div class="meet-overlay__panel meet-overlay__panel--mai-corner" data-meet-panel="mai">
+          <div class="meet-overlay__mai-frame">
+            <header class="meet-overlay__mai-head">
+              <p class="meet-overlay__kicker">纽约州执照临床咨询师（LMSW）</p>
+              <h2 class="meet-overlay__name" id="meet-overlay-title-mai">麦子</h2>
+            </header>
+            <div class="meet-overlay__mai-body">
+              <div class="meet-overlay__prose meet-overlay__mai-prose">
+                <p>
+                  从清华中文系到纽约大学临床心理咨询，从文字的感性到心理学的理性，我走过了一段漫长的、关于人心的探索之旅。
+                </p>
+                <p>
+                  在纽约工作的日子里，我听过很多颗心破碎的声音。我发现，很多时候我们急于消灭那些痛苦的症状，却忘记思考，它为什么会在这个时刻、以如此这般的感受出现在这里，它之于我们究竟有着怎样或有意或无意被忽视的价值与意义？
+                </p>
+                <p>
+                  在我看来，所有的不安、焦虑或防御都是独特的，每一次的崩溃背后都藏着长久以来未被看见的答案，亦或者是我们为了避免承受更大痛苦而生出的铠甲。但总之，它们是我们寻找真实、完整自我的必由之路。当你选择来到我的房间，我们一同坐下，直面真实的自己，这便是你尝试无条件爱自己、接受自己的开始。
+                </p>
+                <h3 class="meet-overlay__h">📝 资历与受训</h3>
+                <ul class="meet-overlay__list">
+                  <li>累计个案时长 1300h+</li>
+                  <li>受督时长 300h+</li>
+                  <li>个人体验 100h+</li>
+                </ul>
+                <p>纽约州执照临床咨询师（LMSW） · 美国心理学会 APA 注册学生会员</p>
+                <h3 class="meet-overlay__h">教育背景</h3>
+                <ul class="meet-overlay__list">
+                  <li>清华大学中文系学士</li>
+                  <li>纽约大学（NYU）社会工作硕士</li>
+                  <li>清华大学工商管理硕士</li>
+                </ul>
+                <h3 class="meet-overlay__h">部分受训经历</h3>
+                <ul class="meet-overlay__list">
+                  <li>澳大利亚达利奇中心 Dulwich Center 叙事疗法一年制项目（受训中）</li>
+                  <li>心理咨询专业伦理 · 北京 · 2025</li>
+                  <li>
+                    Coursework Training in Identification and Reporting of Child Abuse and
+                    Maltreatment
+                  </li>
+                  <li>CPT 游戏治疗 + DDP 依恋取向家庭治疗 · AFFT 依恋取向家庭治疗国际 · 初级认证</li>
+                </ul>
+                <h3 class="meet-overlay__h">实习经历</h3>
+                <ul class="meet-overlay__list">
+                  <li>纽约市政府青少年区域发展中心（DYCD）实习心理咨询师 · 纽约 · 2016–2017</li>
+                  <li>纽约市 Garden of Hope 临床实习心理咨询师 · 纽约 · 2015–2016</li>
+                </ul>
+                <h3 class="meet-overlay__h">面向人群</h3>
+                <p>青少年 / 成年人 / 留学生</p>
+                <p class="meet-overlay__note">* 无精神障碍诊断、无自杀自伤行为</p>
+                <h3 class="meet-overlay__h">擅长领域</h3>
+                <p><strong>个人议题：</strong>自我认知、自我成长</p>
+                <p><strong>关系议题：</strong>亲密关系、人际关系</p>
+                <p><strong>情绪议题：</strong>焦虑、抑郁、羞愧、压力</p>
+                <p><strong>发展议题：</strong>学业、职业发展与倦怠</p>
+                <p><strong>跨文化议题：</strong>跨文化适应、移民心理</p>
+                <p>LGBTQ+ 友好</p>
+                <h3 class="meet-overlay__h">🌱 关于我的流派与理念</h3>
+                <p>
+                  我深受叙事疗法与以人为本取向的影响，我坚信每个人的人生故事都有其独特的意义和色彩。更多时候，我们理解一个人会选择了解其中的片段，我想那都不是完整的你。你的人生叙事会是多样的，不仅仅是单一的，所以你有足够强大的力量朝着你心中的方向生长。
+                </p>
+                <p>
+                  我亦不认为咨询师是高高在上的治疗者，而你更不是一个需要被某些技术干预的、治愈的「坏掉的机器」，而是需要被治愈的故事。你本身就具备力量。而我所做的，只是站在你身边，陪伴你去看清、去听见、去正视你真正的人格，或者说，让你无限接近于你自己本真的样子。
+                </p>
+                <p>
+                  我崇尚真诚、无条件支持与陪伴。重要的不是我使用什么样的技术，重要的是你想要到达多远的地方。
+                </p>
+              </div>
+            </div>
+            <figure class="meet-overlay__mai-portrait" aria-hidden="true">
+              <img
+                src="assets/team-maizi.png?v=1"
+                alt=""
+                width="900"
+                height="1200"
+                decoding="async"
+              />
+            </figure>
+          </div>
+        </div>
+
+        <div class="meet-overlay__panel" data-meet-panel="jolyne" hidden>
+          <div class="meet-overlay__split">
+            <div class="meet-overlay__copy">
+              <p class="meet-overlay__kicker">执业心理咨询师 · 个体咨询</p>
+              <h2 class="meet-overlay__name" id="meet-overlay-title-jolyne">Jolyne</h2>
+              <div class="meet-overlay__prose">
+                <p>
+                  整合取向背景，长期接受动力学与关系取向督导。关注来访者在重复模式里的挣扎，以及如何在稳定关系中重新开口、重新选择。
+                </p>
+                <p>
+                  重视亲密关系、自我探索与情绪调节；在清晰边界与安全的关系里，陪你慢慢辨认自己的需要与恐惧。
+                </p>
+              </div>
+            </div>
+            <div class="meet-overlay__photo meet-overlay__photo--has-img" aria-hidden="true">
+              <img
+                src="assets/team-jolyne.png?v=1"
+                alt=""
+                width="900"
+                height="1200"
+                decoding="async"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="meet-overlay__panel" data-meet-panel="gino" hidden>
+          <div class="meet-overlay__split">
+            <div class="meet-overlay__copy">
+              <p class="meet-overlay__kicker">执业心理咨询师 · 个体咨询</p>
+              <h2 class="meet-overlay__name" id="meet-overlay-title-gino">Gino</h2>
+              <div class="meet-overlay__prose">
+                <p>
+                  重视创伤知情与身体感受线索，练习放慢语速与节奏，让曾被忽略的体验有机会被命名与承接。
+                </p>
+                <p>
+                  常见工作议题包括情绪困扰、哀伤失落与成长议题；在会谈中创造可被倚靠的稳定空间。
+                </p>
+              </div>
+            </div>
+            <div class="meet-overlay__photo meet-overlay__photo--has-img" aria-hidden="true">
+              <img
+                src="assets/team-gino.png?v=1"
+                alt=""
+                width="900"
+                height="1200"
+                decoding="async"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="global-cloud-pony" aria-hidden="true">
+      <img
+        class="global-cloud-pony__img"
+        src="assets/cloud-pony-float.png?v=alpha-2"
+        alt=""
+        width="1024"
+        height="1024"
+        decoding="async"
+      />
+    </div>
+
+    <script src="mobile-nav.js" defer></script>
+    <script src="nav-dropdown.js" defer></script>
+    <script src="metrics-counter.js" defer></script>
+    <script src="booking-popup.js" defer></script>
+    <script src="about-story-toggle.js" defer></script>
+    <script src="meet-counselor-modal.js" defer></script>
+  </body>
+</html>

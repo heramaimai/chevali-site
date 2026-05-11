@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>心理测评 | 心马力 Chevali</title>
+    <link rel="stylesheet" href="styles.css?v=mega-nav-8" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-row">
+        <a class="brand" href="index.html" aria-label="心马力 Chevali 首页">
+          <span class="brand-wordmark">
+            <span class="brand-mark-cn">心马力</span>
+            <span class="brand-mark-en">Chevali</span>
+          </span>
+        </a>
+        <div class="header-tools">
+          <button type="button" class="mobile-nav-toggle" aria-label="打开导航菜单" aria-expanded="false" aria-controls="primary-navigation" id="mobile-nav-toggle">
+            <span class="mobile-nav-toggle__bars" aria-hidden="true">
+              <span class="mobile-nav-toggle__bar"></span>
+              <span class="mobile-nav-toggle__bar"></span>
+              <span class="mobile-nav-toggle__bar"></span>
+            </span>
+          </button>
+          <a class="nav-cta" href="booking.html">预约咨询</a>
+        </div>
+      </div>
+      <div class="mobile-nav-backdrop" aria-hidden="true"></div>
+      <nav class="site-nav" id="primary-navigation" aria-label="主导航">
+        <div class="site-nav__dropdown">
+          <button
+            type="button"
+            class="site-nav__dropdown-trigger"
+            aria-expanded="false"
+            aria-haspopup="true"
+            aria-controls="nav-services-panel"
+            id="nav-services-btn"
+          >
+            我们的服务
+          </button>
+          <div class="site-nav__dropdown-panel site-nav__mega-panel" id="nav-services-panel">
+            <div class="site-nav__mega" data-active="visitor">
+              <div class="site-nav__mega-l2" role="tablist" aria-label="服务对象类型">
+                <button
+                  type="button"
+                  class="site-nav__mega-l2-btn is-active"
+                  role="tab"
+                  aria-selected="true"
+                  aria-controls="mega-pane-visitor"
+                  id="mega-tab-visitor"
+                  data-mega-tab="visitor"
+                >
+                  我是来访者
+                </button>
+                <button
+                  type="button"
+                  class="site-nav__mega-l2-btn"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="mega-pane-counselor"
+                  id="mega-tab-counselor"
+                  data-mega-tab="counselor"
+                >
+                  我是咨询师
+                </button>
+              </div>
+              <div class="site-nav__mega-l3-wrap">
+                <div
+                  class="site-nav__mega-l3-pane is-active"
+                  id="mega-pane-visitor"
+                  role="tabpanel"
+                  aria-labelledby="mega-tab-visitor"
+                  data-mega-pane="visitor"
+                >
+                  <a role="menuitem" href="index.html#individual">个体咨询</a>
+                  <a role="menuitem" href="index.html#couples">伴侣咨询</a>
+                  <a role="menuitem" href="index.html#teen">青少年咨询</a>
+                  <a role="menuitem" href="index.html#group">团体成长</a>
+                </div>
+                <div
+                  class="site-nav__mega-l3-pane"
+                  id="mega-pane-counselor"
+                  role="tabpanel"
+                  aria-labelledby="mega-tab-counselor"
+                  data-mega-pane="counselor"
+                  hidden
+                >
+                  <a role="menuitem" href="counselors.html">咨询师支持</a>
+                </div>
+              </div>
+              <div class="site-nav__mega-media" aria-hidden="true">
+                <div class="site-nav__mega-visual is-active" data-mega-visual="visitor">
+                  <img src="assets/gateway-individual.png" alt="" width="280" height="176" decoding="async" loading="lazy" />
+                </div>
+                <div class="site-nav__mega-visual" data-mega-visual="counselor">
+                  <img src="assets/gateway-counselor.png" alt="" width="280" height="176" decoding="async" loading="lazy" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="index.html#counselors-team">咨询师团队</a>
+        <a href="pricing.html">咨询费用</a>
+        <a href="articles.html">专栏</a>
+        <a href="index.html#about">关于我们</a>
+        <a href="booking.html">预约咨询</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero compact">
+        <p class="eyebrow">心理测评</p>
+        <h1>测评不是给你贴标签，而是帮你更清楚地看见自己。</h1>
+        <p class="lead">你可以从情绪、关系、压力和自我探索四个方向开始。结果仅作为自我理解和服务匹配参考，不替代诊断。</p>
+      </section>
+
+      <section class="section quiz-panel">
+        <div class="quiz-card">
+          <span class="tag">3 分钟</span>
+          <h2>心马力初始状态问卷</h2>
+          <form>
+            <label>最近最困扰你的是什么？
+              <select>
+                <option>情绪低落或焦虑</option>
+                <option>亲密关系消耗</option>
+                <option>人生方向迷茫</option>
+                <option>哀伤失落</option>
+                <option>想更理解自己</option>
+              </select>
+            </label>
+            <label>你更希望获得哪种支持？
+              <select>
+                <option>1v1 个体咨询</option>
+                <option>团体支持与成长小组</option>
+                <option>先与顾问聊聊</option>
+              </select>
+            </label>
+            <label>你期待咨询带来什么？
+              <textarea placeholder="可以简单写下你现在最想被理解的部分"></textarea>
+            </label>
+            <button class="button primary" type="button">生成初步建议</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><strong>心马力 Chevali</strong><span>让那些说不清的感受被看见。</span><a href="booking.html">预约咨询</a></footer>
+
+    <script src="mobile-nav.js" defer></script>
+    <script src="nav-dropdown.js" defer></script>
+    <div class="global-cloud-pony" aria-hidden="true">
+      <img
+        class="global-cloud-pony__img"
+        src="assets/cloud-pony-float.png?v=alpha-2"
+        alt=""
+        width="1024"
+        height="1024"
+        decoding="async"
+      />
+    </div>
+  </body>
+</html>

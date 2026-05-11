@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>咨询服务 | 心马力 Chevali</title>
+    <link rel="stylesheet" href="styles.css?v=mega-nav-8" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-row">
+        <a class="brand" href="index.html" aria-label="心马力 Chevali 首页">
+          <span class="brand-wordmark">
+            <span class="brand-mark-cn">心马力</span>
+            <span class="brand-mark-en">Chevali</span>
+          </span>
+        </a>
+        <div class="header-tools">
+          <button type="button" class="mobile-nav-toggle" aria-label="打开导航菜单" aria-expanded="false" aria-controls="primary-navigation" id="mobile-nav-toggle">
+            <span class="mobile-nav-toggle__bars" aria-hidden="true">
+              <span class="mobile-nav-toggle__bar"></span>
+              <span class="mobile-nav-toggle__bar"></span>
+              <span class="mobile-nav-toggle__bar"></span>
+            </span>
+          </button>
+          <a class="nav-cta" href="booking.html">预约咨询</a>
+        </div>
+      </div>
+      <div class="mobile-nav-backdrop" aria-hidden="true"></div>
+      <nav class="site-nav" id="primary-navigation" aria-label="主导航">
+        <div class="site-nav__dropdown">
+          <button
+            type="button"
+            class="site-nav__dropdown-trigger"
+            aria-expanded="false"
+            aria-haspopup="true"
+            aria-controls="nav-services-panel"
+            id="nav-services-btn"
+          >
+            我们的服务
+          </button>
+          <div class="site-nav__dropdown-panel site-nav__mega-panel" id="nav-services-panel">
+            <div class="site-nav__mega" data-active="visitor">
+              <div class="site-nav__mega-l2" role="tablist" aria-label="服务对象类型">
+                <button
+                  type="button"
+                  class="site-nav__mega-l2-btn is-active"
+                  role="tab"
+                  aria-selected="true"
+                  aria-controls="mega-pane-visitor"
+                  id="mega-tab-visitor"
+                  data-mega-tab="visitor"
+                >
+                  我是来访者
+                </button>
+                <button
+                  type="button"
+                  class="site-nav__mega-l2-btn"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="mega-pane-counselor"
+                  id="mega-tab-counselor"
+                  data-mega-tab="counselor"
+                >
+                  我是咨询师
+                </button>
+              </div>
+              <div class="site-nav__mega-l3-wrap">
+                <div
+                  class="site-nav__mega-l3-pane is-active"
+                  id="mega-pane-visitor"
+                  role="tabpanel"
+                  aria-labelledby="mega-tab-visitor"
+                  data-mega-pane="visitor"
+                >
+                  <a role="menuitem" href="index.html#individual">个体咨询</a>
+                  <a role="menuitem" href="index.html#couples">伴侣咨询</a>
+                  <a role="menuitem" href="index.html#teen">青少年咨询</a>
+                  <a role="menuitem" href="index.html#group">团体成长</a>
+                </div>
+                <div
+                  class="site-nav__mega-l3-pane"
+                  id="mega-pane-counselor"
+                  role="tabpanel"
+                  aria-labelledby="mega-tab-counselor"
+                  data-mega-pane="counselor"
+                  hidden
+                >
+                  <a role="menuitem" href="counselors.html">咨询师支持</a>
+                </div>
+              </div>
+              <div class="site-nav__mega-media" aria-hidden="true">
+                <div class="site-nav__mega-visual is-active" data-mega-visual="visitor">
+                  <img src="assets/gateway-individual.png" alt="" width="280" height="176" decoding="async" loading="lazy" />
+                </div>
+                <div class="site-nav__mega-visual" data-mega-visual="counselor">
+                  <img src="assets/gateway-counselor.png" alt="" width="280" height="176" decoding="async" loading="lazy" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="index.html#counselors-team">咨询师团队</a>
+        <a href="pricing.html">咨询费用</a>
+        <a href="articles.html">专栏</a>
+        <a href="index.html#about">关于我们</a>
+        <a href="booking.html">预约咨询</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">面向来访者</p>
+        <h1>有些困扰，不一定需要立刻被解决。它们首先需要被认真听见。</h1>
+        <p class="lead">
+          在心马力，你可以带着一个很具体的问题开始：一段反复消耗你的亲密关系，一种说不清的情绪低落，一场迟迟无法走出的告别，一个关于人生方向的犹疑，或者只是想更深地理解自己。
+        </p>
+      </section>
+
+      <section class="section service-layout">
+        <article class="feature-block">
+          <span class="tag">1v1 个体咨询</span>
+          <h2>在稳定关系里，重新理解自己的故事。</h2>
+          <p>
+            1v1 个体咨询提供一个私密、稳定、持续的心理空间。咨询师不会替你定义人生，也不会急于把你推向某个标准答案。我们更重视与你一起理解：那些情绪如何形成，那些关系为何反复，那些选择背后真正牵动你的是什么。
+          </p>
+          <ul class="pill-list">
+            <li>亲密关系</li>
+            <li>情绪困扰</li>
+            <li>人生意义</li>
+            <li>自我探索</li>
+            <li>哀伤失落</li>
+          </ul>
+        </article>
+
+        <article class="feature-block warm">
+          <span class="tag">团体支持与成长小组</span>
+          <h2>在连接中，看见自己。</h2>
+          <p>
+            心马力的团体支持与成长小组结合叙事、心理剧、正念与表达性活动，创造一个温暖而有边界的微型社会。在这里，每个人都可以练习表达，练习倾听，也在他人的故事中看见自己的回声。
+          </p>
+          <p>团体不是表演，也不是评判场。它是一个共同在场的空间，让人重新学习连接、信任与自我整合。</p>
+        </article>
+      </section>
+
+      <section class="section cards-section">
+        <div class="section-head">
+          <p class="eyebrow">如何开始</p>
+          <h2>从一个真实的问题开始，慢慢靠近自己。</h2>
+        </div>
+        <div class="card-grid three">
+          <article class="card"><span>01</span><h3>填写预约表单</h3><p>告诉我们你希望被支持的议题、时间和咨询偏好。</p></article>
+          <article class="card"><span>02</span><h3>初步匹配</h3><p>我们根据你的需求推荐合适的咨询师或团体。</p></article>
+          <article class="card"><span>03</span><h3>开始咨询</h3><p>在稳定关系中重新整理自己的故事、情绪与选择。</p></article>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer"><strong>心马力 Chevali</strong><span>看见，连接，陪伴。</span><a href="booking.html">预约咨询</a></footer>
+
+    <script src="mobile-nav.js" defer></script>
+    <script src="nav-dropdown.js" defer></script>
+    <div class="global-cloud-pony" aria-hidden="true">
+      <img
+        class="global-cloud-pony__img"
+        src="assets/cloud-pony-float.png?v=alpha-2"
+        alt=""
+        width="1024"
+        height="1024"
+        decoding="async"
+      />
+    </div>
+  </body>
+</html>

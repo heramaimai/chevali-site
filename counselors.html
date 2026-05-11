@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>咨询师支持 | 心马力 Chevali</title>
+    <meta
+      name="description"
+      content="咨询练习室 Clinical Lab、前100小时计划、刻意练习小组与 Life Safari 职业生涯导航——心马力为咨询师提供专业、可落地的成长支持。"
+    />
+    <link rel="stylesheet" href="styles.css?v=mega-nav-8" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-row">
+        <a class="brand" href="index.html" aria-label="心马力 Chevali 首页">
+          <span class="brand-wordmark">
+            <span class="brand-mark-cn">心马力</span>
+            <span class="brand-mark-en">Chevali</span>
+          </span>
+        </a>
+        <div class="header-tools">
+          <button type="button" class="mobile-nav-toggle" aria-label="打开导航菜单" aria-expanded="false" aria-controls="primary-navigation" id="mobile-nav-toggle">
+            <span class="mobile-nav-toggle__bars" aria-hidden="true">
+              <span class="mobile-nav-toggle__bar"></span>
+              <span class="mobile-nav-toggle__bar"></span>
+              <span class="mobile-nav-toggle__bar"></span>
+            </span>
+          </button>
+          <a class="nav-cta" href="booking.html">预约咨询</a>
+        </div>
+      </div>
+      <div class="mobile-nav-backdrop" aria-hidden="true"></div>
+      <nav class="site-nav" id="primary-navigation" aria-label="主导航">
+        <div class="site-nav__dropdown">
+          <button
+            type="button"
+            class="site-nav__dropdown-trigger"
+            aria-expanded="false"
+            aria-haspopup="true"
+            aria-controls="nav-services-panel"
+            id="nav-services-btn"
+          >
+            我们的服务
+          </button>
+          <div class="site-nav__dropdown-panel site-nav__mega-panel" id="nav-services-panel">
+            <div class="site-nav__mega" data-active="counselor">
+              <div class="site-nav__mega-l2" role="tablist" aria-label="服务对象类型">
+                <button
+                  type="button"
+                  class="site-nav__mega-l2-btn"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="mega-pane-visitor"
+                  id="mega-tab-visitor"
+                  data-mega-tab="visitor"
+                >
+                  我是来访者
+                </button>
+                <button
+                  type="button"
+                  class="site-nav__mega-l2-btn is-active"
+                  role="tab"
+                  aria-selected="true"
+                  aria-controls="mega-pane-counselor"
+                  id="mega-tab-counselor"
+                  data-mega-tab="counselor"
+                >
+                  我是咨询师
+                </button>
+              </div>
+              <div class="site-nav__mega-l3-wrap">
+                <div
+                  class="site-nav__mega-l3-pane"
+                  id="mega-pane-visitor"
+                  role="tabpanel"
+                  aria-labelledby="mega-tab-visitor"
+                  data-mega-pane="visitor"
+                  hidden
+                >
+                  <a role="menuitem" href="index.html#individual">个体咨询</a>
+                  <a role="menuitem" href="index.html#couples">伴侣咨询</a>
+                  <a role="menuitem" href="index.html#teen">青少年咨询</a>
+                  <a role="menuitem" href="index.html#group">团体成长</a>
+                </div>
+                <div
+                  class="site-nav__mega-l3-pane is-active"
+                  id="mega-pane-counselor"
+                  role="tabpanel"
+                  aria-labelledby="mega-tab-counselor"
+                  data-mega-pane="counselor"
+                >
+                  <a role="menuitem" class="active" href="counselors.html">咨询师支持</a>
+                </div>
+              </div>
+              <div class="site-nav__mega-media" aria-hidden="true">
+                <div class="site-nav__mega-visual" data-mega-visual="visitor">
+                  <img src="assets/gateway-individual.png" alt="" width="280" height="176" decoding="async" loading="lazy" />
+                </div>
+                <div class="site-nav__mega-visual is-active" data-mega-visual="counselor">
+                  <img src="assets/gateway-counselor.png" alt="" width="280" height="176" decoding="async" loading="lazy" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="index.html#counselors-team">咨询师团队</a>
+        <a href="pricing.html">咨询费用</a>
+        <a href="articles.html">专栏</a>
+        <a href="index.html#about">关于我们</a>
+        <a href="booking.html">预约咨询</a>
+      </nav>
+    </header>
+
+    <main class="page-counselors">
+      <section class="page-hero page-hero-counselors">
+        <p class="eyebrow">咨询师支持</p>
+        <h1>让练习落地，<br />让专业拔节生长</h1>
+        <p class="lead lead-narrow">
+          针对海外归国咨询师的本土化适配、以及国内新手咨询师「理论强、实操弱」的普遍困境，心马力以学院派微技能训练、同辈练习与督导反馈为核心，陪你在安全、合规的框架里，把知识磨进身体与咨询室。
+        </p>
+      </section>
+
+      <section
+        class="section section-product-fabric"
+        id="clinical-lab"
+        aria-labelledby="clinical-lab-title"
+      >
+        <div class="fabric-split fabric-split--visual-right">
+          <div class="fabric-split__copy">
+            <p class="fabric-split__eyebrow">咨询师支持 · 产品 01</p>
+            <h2 class="fabric-split__title" id="clinical-lab-title">
+              咨询练习室 <span class="product-en">Clinical Lab</span>
+            </h2>
+            <p class="fabric-split__lead">
+              微技能模块化训练，在督导与同辈反馈中，把「知道」磨成「做到」。
+            </p>
+            <div class="prose prose-counselor fabric-product-prose">
+              <p>
+                我们深知，「走出练习室，进入咨询室」的这一跃有多难。针对海外归国咨询师的「本土化适配」难，以及国内新手咨询师「理论强、实操弱」的困境，我们推出了「咨询练习室」项目。我们参考了美国学院派最常用的训练模型：Microcounseling（微咨询）。将复杂的咨询对话拆解为最小动作单元（如关注、澄清、复述、情感反映、总结等核心技能）。通过精细化的模块化进行专项突破，让专业知识不再悬浮，而是转化为可迁移、可落地的职业胜任力。
+              </p>
+            </div>
+            <div class="clinical-flow" aria-labelledby="clinical-flow-title">
+              <h3 class="clinical-flow__title" id="clinical-flow-title">
+                产品流程：15+15 深度体验
+              </h3>
+              <p class="clinical-flow__intro">
+                我们设计了一套行之有效的实战流程。在长期的模块化训练中，通过高频次的互换体验，让你真正建立作为咨询师的底气。
+              </p>
+
+              <p class="clinical-flow__block-label">双重身份 · 轮换体验</p>
+              <div class="clinical-flow-dual">
+                <article class="clinical-flow-card clinical-flow-card--counselor">
+                  <span class="clinical-flow-card__pill">咨询师位置</span>
+                  <div class="clinical-flow-card__metric" aria-label="共 15 次咨询师实战">
+                    <span class="clinical-flow-card__num">15</span>
+                    <span class="clinical-flow-card__suffix">次</span>
+                  </div>
+                  <p class="clinical-flow-card__hook">咨询师实战</p>
+                  <p class="clinical-flow-card__body">
+                    作为执业者，在督导注视下打磨每一个微技能单元。
+                  </p>
+                </article>
+                <article class="clinical-flow-card clinical-flow-card--client">
+                  <span class="clinical-flow-card__pill">来访者位置</span>
+                  <div class="clinical-flow-card__metric" aria-label="共 15 次深度来访体验">
+                    <span class="clinical-flow-card__num">15</span>
+                    <span class="clinical-flow-card__suffix">次</span>
+                  </div>
+                  <p class="clinical-flow-card__hook">深度来访体验</p>
+                  <p class="clinical-flow-card__body">
+                    作为来访者，从内部视角感受干预技术的力量，校准同理心的精度。
+                  </p>
+                </article>
+              </div>
+
+              <div class="clinical-flow-loop">
+                <p class="clinical-flow-loop__label">每周一条闭环：90 分钟</p>
+                <div
+                  class="clinical-flow-week-bar"
+                  aria-label="单次会谈结构：前 50 分钟练习，后 40 分钟督导反馈"
+                  role="group"
+                >
+                  <span class="clinical-flow-week-bar__seg clinical-flow-week-bar__seg--practice">
+                    <span class="clinical-flow-week-bar__min">50′</span>
+                    <span class="clinical-flow-week-bar__cap">练习</span>
+                  </span>
+                  <span class="clinical-flow-week-bar__seg clinical-flow-week-bar__seg--supervise">
+                    <span class="clinical-flow-week-bar__min">40′</span>
+                    <span class="clinical-flow-week-bar__cap">复盘</span>
+                  </span>
+                </div>
+                <div class="clinical-flow-steps">
+                  <div class="clinical-flow-step">
+                    <h4 class="clinical-flow-step__heading">前 50 分钟 · 模拟 / 真实咨询</h4>
+                    <p class="clinical-flow-step__text">
+                      在安全合规的框架下，进行沉浸式对话练习。
+                    </p>
+                  </div>
+                  <div class="clinical-flow-step">
+                    <h4 class="clinical-flow-step__heading">后 40 分钟 · 督导反馈与纠偏</h4>
+                    <p class="clinical-flow-step__text">
+                      专业督导现场「复盘」，针对微小动作单元（Micro-skills）拆解、点评；对弱项即时发起重复练习，直到技术化为直觉。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="fabric-split__cta" href="booking.html">预约沟通</a>
+          </div>
+          <div class="fabric-split__visual">
+            <img
+              class="fabric-split__img"
+              src="assets/counselor-support-01.png?v=1"
+              alt="插画：三位咨询师同行围坐，进行同辈督导与专业对话"
+              width="1024"
+              height="1024"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section-product-fabric section-product-fabric--alt"
+        id="first-100"
+        aria-labelledby="first-100-title"
+      >
+        <div class="fabric-split fabric-split--visual-left">
+          <div class="fabric-split__copy">
+            <p class="fabric-split__eyebrow">咨询师支持 · 产品 02</p>
+            <h2 class="fabric-split__title" id="first-100-title">
+              新手咨询师的「前 100 小时」计划
+            </h2>
+            <p class="fabric-split__lead">
+              完成高频练习后，协助衔接真实个案，陪你走完执业起步最难的一段路。
+            </p>
+            <div class="prose prose-counselor fabric-product-prose">
+              <p>
+                我们不希望练习仅仅止于练习。当你在心马力完成高频、高质的同辈练习，建立起稳定的临床胜任力后，我们将致力于通过安全、合规的渠道，为你衔接真实的个案机会。我们陪你走完这最艰难的「前 100 小时」，直到你能在草原上独立奔跑。
+              </p>
+            </div>
+            <a class="fabric-split__cta" href="booking.html">预约沟通</a>
+          </div>
+          <div class="fabric-split__visual">
+            <img
+              class="fabric-split__img"
+              src="assets/counselor-support-02.png?v=1"
+              alt="插画：书桌前专注书写与记录，背景中同伴安静陪伴"
+              width="1024"
+              height="1024"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section-product-fabric"
+        id="deliberate-group"
+        aria-labelledby="deliberate-group-title"
+      >
+        <div class="fabric-split fabric-split--visual-right">
+          <div class="fabric-split__copy">
+            <p class="fabric-split__eyebrow">咨询师支持 · 产品 03</p>
+            <h2 class="fabric-split__title" id="deliberate-group-title">刻意练习小组</h2>
+            <p class="fabric-split__lead">
+              四人小组轮换角色与观察，刻意练习关系里的技术与在场。
+            </p>
+            <div class="prose prose-counselor fabric-product-prose">
+              <p>
+                定期组织地面的深度碰撞。这不仅是技术的磨炼，更是对「关系流动」的敏锐捕捉。
+              </p>
+              <p>
+                我们构建四人练习小组，两人作为咨询师与来访者，两人作为观察者，进行全方位的结构、框架、技术及情绪捕捉，第一视角还原咨询室里究竟正在发生什么。通过刻意练习，小组成员能够拥有最直观的感受、体会与交流过程，体会在场的力量。彼此之间的积极、不评判的互助成就自己，也成就他人。
+              </p>
+            </div>
+            <a class="fabric-split__cta" href="booking.html">预约沟通</a>
+          </div>
+          <div class="fabric-split__visual">
+            <img
+              class="fabric-split__img"
+              src="assets/counselor-support-03.png?v=1"
+              alt="插画：四位同行围坐讨论，小组案例练习与记录"
+              width="1024"
+              height="1024"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section-product-fabric section-product-fabric--alt"
+        id="life-safari"
+        aria-labelledby="life-safari-title"
+      >
+        <div class="fabric-split fabric-split--visual-left">
+          <div class="fabric-split__copy">
+            <p class="fabric-split__eyebrow">咨询师支持 · 产品 04</p>
+            <h2 class="fabric-split__title" id="life-safari-title">
+              职业生涯导航 <span class="product-en">Life Safari</span>
+            </h2>
+            <p class="fabric-split__lead">
+              单次规划咨询，理清海内外路径、流派选择与执业身份。
+            </p>
+            <div class="prose prose-counselor fabric-product-prose">
+              <p>
+                我们知道，你的困惑往往不只在咨询室内。在这个充满「圈子文化」和门槛迷雾的行业里，你需要一份清晰的地图。针对国内外的心理就业、求学、督导选择及流派发展，我们推出单次付费的规划咨询：
+              </p>
+            </div>
+            <ol class="counselor-numbered">
+              <li>
+                <strong>海外/国内路径规划：</strong>针对不同背景（如海归回国、非专转专），提供真实的行业现状分析与避坑指南。
+              </li>
+              <li>
+                <strong>流派与长程培训选择：</strong>拒绝盲目跟风天价课程，根据你的特质匹配最适合的学习路径。
+              </li>
+              <li>
+                <strong>执业身份构建：</strong>陪你梳理如何在专业伦理的框架下，建立属于你自己的咨询风格与职业形象。
+              </li>
+            </ol>
+            <a class="fabric-split__cta" href="booking.html">预约沟通</a>
+          </div>
+          <div class="fabric-split__visual">
+            <img
+              class="fabric-split__img"
+              src="assets/counselor-support-04.png?v=1"
+              alt="插画：咨询会谈中共同查看路径与地图，协同梳理方向"
+              width="1024"
+              height="1024"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-peer" aria-labelledby="peer-heading">
+        <div class="peer-bg-line" aria-hidden="true"></div>
+        <div class="peer-split">
+          <header class="peer-intro">
+            <h2 id="peer-heading">同行在说什么</h2>
+            <p class="peer-intro-highlight">
+              训练是否「有用」，往往最先被同伴辨认出来。
+            </p>
+            <p class="peer-intro-body">
+              下面这些声音来自参与练习与小组的咨询师同行（已做匿名化处理）。它们不代表承诺或疗效，只是一份关于「在场、练习与陪伴」的真实体感。
+            </p>
+          </header>
+          <div class="peer-grid">
+            <figure class="peer-card peer-card--tilt-a">
+              <span class="peer-card-tag">反馈 1｜练习与反馈</span>
+              <span class="peer-card-mark" aria-hidden="true">“</span>
+              <blockquote class="peer-card-quote">
+                <p>
+                  以前我知道自己容易在咨询里感到别扭，但说不出来到底卡在哪。后来把一个个微技能拆开练，督导又能很具体地指出我刚才哪里慢了、哪里急了，我才第一次感觉：原来技术真的不是概念，是可以一点点长到身体里的。
+                </p>
+              </blockquote>
+              <figcaption class="peer-card-by">同行咨询师 · 小满</figcaption>
+            </figure>
+            <figure class="peer-card peer-card--tilt-b">
+              <span class="peer-card-tag">反馈 2｜同辈小组</span>
+              <span class="peer-card-mark" aria-hidden="true">“</span>
+              <blockquote class="peer-card-quote">
+                <p>
+                  四人小组里最珍贵的地方，是我不用假装自己很会。我可以把那些接不住、想躲开、甚至有点羞耻的时刻拿出来讲。没人急着评价我，大家一起看那个瞬间到底发生了什么。那种感觉很难得。
+                </p>
+              </blockquote>
+              <figcaption class="peer-card-by">同行咨询师 · 阿禾</figcaption>
+            </figure>
+            <figure class="peer-card peer-card--tilt-c">
+              <span class="peer-card-tag">反馈 3｜海归适配</span>
+              <span class="peer-card-mark" aria-hidden="true">“</span>
+              <blockquote class="peer-card-quote">
+                <p>
+                  回国后最难的其实不是理论，而是语境。很多话在国外训练里很自然，放到国内来访身上就不一定贴合。在这里练习的时候，我终于能把以前学到的东西，一点点翻译成更贴近本土来访的表达。
+                </p>
+              </blockquote>
+              <figcaption class="peer-card-by">同行咨询师 · Julia</figcaption>
+            </figure>
+            <figure class="peer-card peer-card--tilt-d">
+              <span class="peer-card-tag">反馈 4｜路径与伦理</span>
+              <span class="peer-card-mark" aria-hidden="true">“</span>
+              <blockquote class="peer-card-quote">
+                <p>
+                  Life Safari 对我来说不像职业规划，更像有人陪我把一团乱麻摊开。没人替我做决定，但我慢慢看清了自己到底卡在哪：是流派选择、督导资源，还是对执业身份的不确定。看清之后，下一步就没那么慌了。
+                </p>
+              </blockquote>
+              <figcaption class="peer-card-by">同行咨询师 · 叶子</figcaption>
+            </figure>
+          </div>
+        </div>
+        <p class="peer-footnote">
+          以上内容经参与者知情同意后摘录；所示姓名为化名，可识别信息已做处理，不代表对未来个案或执业结果的保证。
+        </p>
+      </section>
+
+      <section class="section section-manifesto" id="counselor-closing">
+        <div class="counselor-manifesto">
+          <h2>我们想给你的，是这份「在场」的底气</h2>
+          <div class="prose prose-counselor">
+            <p>
+              很多时候，心理咨询师像是在黑夜里潜泳。因为没有光线，你感受不到自己的方位。你也许会开始怀疑自己的专业能力，也可能在浮躁的市场喧嚣中，觉得自己那个执拗的理想主义像个格格不入的异类。
+            </p>
+            <p>
+              在心马力，我们想带给你的第一件礼物，就是不再孤独。这里没有权威的俯瞰，只有一群拥有共同期盼和愿望的伙伴。在这里，理想主义是我们共同的追求。
+            </p>
+            <p>
+              我们不卖焦虑，因为这个行业本身已经足够让人焦虑和沉重。我们想陪你踏踏实实地踩实每一个脚印，把那些印在书本上的理论框架，磨成你身体的本能。我们想缩短你那段战战兢兢的摸索期，让你在面对来访者时，手心里不再只有冷汗，而是一种脚踩在泥土里的踏实感。
+            </p>
+            <p>
+              最重要的是，我们想和你一起守护那份执业的初心。
+            </p>
+            <p>
+              每一个咨询师都记得推开咨询室大门前，那个深长的呼吸。在那些让你尴尬、想躲闪的瞬间，在那些你觉得自己快要接不住来访者的时刻，别怕。那是治愈正要从裂缝中生长的时刻。当你迈出从 0 到 1 那最难的一跨时，心马力会站在你身后，做一个严谨且温暖的安全网。
+            </p>
+            <p>
+              你不必完美，你只需要保持真诚。而我们会守护着你那一簇还未熄灭的火种，陪你一起，去到想去的地方。
+            </p>
+            <p>
+              在心马力，我们始终将来访者和客户的感受置于首位。无论是寻求支持的你，还是深耕专业的你，我们都希望能在这里为你建立一个清晰的安全边界与稳定的支持系统。
+            </p>
+            <p class="manifesto-closing">
+              不管你心里是否有一匹野马，我们都要带它去草原。
+            </p>
+          </div>
+          <p class="counselor-cta-line">
+            <a class="button primary" href="booking.html">预约沟通 · 咨询师方向</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <strong>心马力 Chevali</strong>
+      <span>把真心交给真心</span>
+      <a href="booking.html">预约咨询</a>
+    </footer>
+
+    <script src="mobile-nav.js" defer></script>
+    <script src="nav-dropdown.js" defer></script>
+    <div class="global-cloud-pony" aria-hidden="true">
+      <img
+        class="global-cloud-pony__img"
+        src="assets/cloud-pony-float.png?v=alpha-2"
+        alt=""
+        width="1024"
+        height="1024"
+        decoding="async"
+      />
+    </div>
+  </body>
+</html>

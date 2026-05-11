@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>咨询费用 | 心马力 Chevali</title>
+    <meta
+      name="description"
+      content="心马力 Chevali 咨询费用说明：初访与持续咨询的常见档位参考，以及商业保险与 EAP 理赔提示。"
+    />
+    <link rel="stylesheet" href="styles.css?v=mega-nav-8" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-row">
+        <a class="brand" href="index.html" aria-label="心马力 Chevali 首页">
+          <span class="brand-wordmark">
+            <span class="brand-mark-cn">心马力</span>
+            <span class="brand-mark-en">Chevali</span>
+          </span>
+        </a>
+        <div class="header-tools">
+          <button type="button" class="mobile-nav-toggle" aria-label="打开导航菜单" aria-expanded="false" aria-controls="primary-navigation" id="mobile-nav-toggle">
+            <span class="mobile-nav-toggle__bars" aria-hidden="true">
+              <span class="mobile-nav-toggle__bar"></span>
+              <span class="mobile-nav-toggle__bar"></span>
+              <span class="mobile-nav-toggle__bar"></span>
+            </span>
+          </button>
+          <a class="nav-cta" href="booking.html">预约咨询</a>
+        </div>
+      </div>
+      <div class="mobile-nav-backdrop" aria-hidden="true"></div>
+      <nav class="site-nav" id="primary-navigation" aria-label="主导航">
+        <div class="site-nav__dropdown">
+          <button
+            type="button"
+            class="site-nav__dropdown-trigger"
+            aria-expanded="false"
+            aria-haspopup="true"
+            aria-controls="nav-services-panel"
+            id="nav-services-btn"
+          >
+            我们的服务
+          </button>
+          <div class="site-nav__dropdown-panel site-nav__mega-panel" id="nav-services-panel">
+            <div class="site-nav__mega" data-active="visitor">
+              <div class="site-nav__mega-l2" role="tablist" aria-label="服务对象类型">
+                <button
+                  type="button"
+                  class="site-nav__mega-l2-btn is-active"
+                  role="tab"
+                  aria-selected="true"
+                  aria-controls="mega-pane-visitor"
+                  id="mega-tab-visitor"
+                  data-mega-tab="visitor"
+                >
+                  我是来访者
+                </button>
+                <button
+                  type="button"
+                  class="site-nav__mega-l2-btn"
+                  role="tab"
+                  aria-selected="false"
+                  aria-controls="mega-pane-counselor"
+                  id="mega-tab-counselor"
+                  data-mega-tab="counselor"
+                >
+                  我是咨询师
+                </button>
+              </div>
+              <div class="site-nav__mega-l3-wrap">
+                <div
+                  class="site-nav__mega-l3-pane is-active"
+                  id="mega-pane-visitor"
+                  role="tabpanel"
+                  aria-labelledby="mega-tab-visitor"
+                  data-mega-pane="visitor"
+                >
+                  <a role="menuitem" href="index.html#individual">个体咨询</a>
+                  <a role="menuitem" href="index.html#couples">伴侣咨询</a>
+                  <a role="menuitem" href="index.html#teen">青少年咨询</a>
+                  <a role="menuitem" href="index.html#group">团体成长</a>
+                </div>
+                <div
+                  class="site-nav__mega-l3-pane"
+                  id="mega-pane-counselor"
+                  role="tabpanel"
+                  aria-labelledby="mega-tab-counselor"
+                  data-mega-pane="counselor"
+                  hidden
+                >
+                  <a role="menuitem" href="counselors.html">咨询师支持</a>
+                </div>
+              </div>
+              <div class="site-nav__mega-media" aria-hidden="true">
+                <div class="site-nav__mega-visual is-active" data-mega-visual="visitor">
+                  <img src="assets/gateway-individual.png" alt="" width="280" height="176" decoding="async" loading="lazy" />
+                </div>
+                <div class="site-nav__mega-visual" data-mega-visual="counselor">
+                  <img src="assets/gateway-counselor.png" alt="" width="280" height="176" decoding="async" loading="lazy" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="index.html#counselors-team">咨询师团队</a>
+        <a class="active" href="pricing.html">咨询费用</a>
+        <a href="articles.html">专栏</a>
+        <a href="index.html#about">关于我们</a>
+        <a href="booking.html">预约咨询</a>
+      </nav>
+    </header>
+
+    <main class="pricing-shell">
+      <section class="pricing-hero" aria-labelledby="pricing-title">
+        <h1 id="pricing-title">咨询费用说明</h1>
+        <p class="pricing-hero__lead">
+          以下为常见收费结构与参考档位。<strong>个案报价</strong>仍可能在初步沟通后，依据议题复杂度、会谈长度与匹配方案微调。
+        </p>
+      </section>
+
+      <section class="pricing-panel-wrap" aria-labelledby="pricing-card-label">
+        <h2 class="visually-hidden" id="pricing-card-label">费用档位一览</h2>
+        <div class="pricing-panel">
+          <p class="pricing-panel__intro">
+            若你持有<strong>商业医疗保险</strong>或<strong>员工援助计划（EAP）</strong>，建议事先向保险公司核实是否涵盖心理咨询、是否需要预授权，以及报销比例与上限。以下为面向<strong>自费来访者</strong>的参考价格（人民币）：
+          </p>
+
+          <div class="pricing-columns">
+            <div class="pricing-column">
+              <div class="pricing-pill">
+                <svg class="pricing-pill__icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                  <rect x="3" y="5" width="18" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.75" />
+                  <path d="M7 3v4M17 3v4M3 11h18" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" />
+                </svg>
+                <span>首次访谈</span>
+              </div>
+              <ul class="pricing-lines">
+                <li>
+                  <span class="pricing-lines__label">个体咨询（50 分钟）</span>
+                  <span class="pricing-lines__value">¥680 / 次</span>
+                </li>
+                <li>
+                  <span class="pricing-lines__label">伴侣联合访谈（90 分钟）</span>
+                  <span class="pricing-lines__value">¥980 / 次</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="pricing-column">
+              <div class="pricing-pill pricing-pill--muted">
+                <svg class="pricing-pill__icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true">
+                  <path
+                    d="M12 5v4l3 3M5 12a7 7 0 1 0 7-7"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.75"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>持续咨询</span>
+              </div>
+              <ul class="pricing-lines">
+                <li>
+                  <span class="pricing-lines__label">个体咨询</span>
+                  <span class="pricing-lines__value">¥600 / 节（50 分钟）</span>
+                </li>
+                <li>
+                  <span class="pricing-lines__label">伴侣咨询</span>
+                  <span class="pricing-lines__value">¥900 / 节（90 分钟）</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <p class="pricing-panel__fine">
+            团体课程与咨询师支持项目另行计价；可在初步沟通或对应服务页面获取说明。
+          </p>
+        </div>
+
+        <aside class="pricing-callout">
+          <span class="pricing-callout__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none">
+              <circle cx="12" cy="12" r="10" stroke="rgba(47,61,51,0.35)" stroke-width="1.5" />
+              <path
+                d="M8 12.5l2.5 2.5 5-6"
+                stroke="#2f3d33"
+                stroke-width="1.75"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          <p class="pricing-callout__text">
+            心理健康的投入不必被想象成「一次性沉重负担」。在适用前提下，商业保险可能分担一部分费用；也有许多来访者在固定频率下，将咨询视为对自我与关系的<strong>可持续投资</strong>。
+          </p>
+        </aside>
+
+        <p class="pricing-disclaimer">
+          * 所示金额为示例参考，不构成要约；实际费用以预约确认、会谈协议及缴费通知为准。你是否适用保险理赔以承保条款为准。
+        </p>
+
+        <p class="pricing-actions">
+          <a class="button primary" href="booking.html">预约初步沟通</a>
+          <a class="button secondary" href="services.html">了解咨询服务</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <strong>心马力 Chevali</strong>
+      <span>把真心交给真心</span>
+      <a href="booking.html">预约咨询</a>
+    </footer>
+
+    <script src="mobile-nav.js" defer></script>
+    <script src="nav-dropdown.js" defer></script>
+    <div class="global-cloud-pony" aria-hidden="true">
+      <img
+        class="global-cloud-pony__img"
+        src="assets/cloud-pony-float.png?v=alpha-2"
+        alt=""
+        width="1024"
+        height="1024"
+        decoding="async"
+      />
+    </div>
+  </body>
+</html>
