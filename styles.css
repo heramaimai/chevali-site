@@ -4775,7 +4775,7 @@ body.booking-popup-active {
   text-align: center;
   border-bottom: 1px solid var(--line);
   background-color: #f7f2ec;
-  background-image: url("assets/blog-hub-hero-clouds.png?v=1");
+  background-image: url("images/blog-hub-hero-clouds.png?v=1");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
